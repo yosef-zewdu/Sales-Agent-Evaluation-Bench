@@ -1,0 +1,612 @@
+[
+  {
+    "task_id": "TB-TR-0002",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input forms a coherent B2B scenario, the ground truth requires some human judgment, and the rubric clearly specifies the tested dimension.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-TR-0005",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input forms a coherent B2B scenario with clear metrics, but ground_truth verification requires some human judgment for tone and banned phrases, while the rubric is unambiguous.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-TR-0009",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input provides a coherent B2B scenario with clear hiring signals, the ground_truth has verifiable elements but some require human judgment, and the rubric clearly defines the quality dimension being tested.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-TR-0028",
+    "scores": {
+      "input_coherence": 3,
+      "gt_verifiability": 4,
+      "rubric_clarity": 2,
+      "reason": "The input provides a realistic scenario but lacks detail, the ground truth is mostly verifiable, and the rubric's testing dimension is somewhat unclear.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-TR-0032",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input provides a clear but somewhat ambiguous scenario, the ground truth has both verifiable and subjective elements, and the rubric clearly targets constraint judgment.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-TR-0034",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The scenario is realistic and coherent, but the ground truth requires some subjective interpretation, while the rubric clearly targets constraint judgment.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-TR-0035",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The scenario is coherent but lacks depth, ground truth is partially automatable, and the rubric is clear for constraint judgment.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-TR-0036",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The scenario is coherent but lacks depth, ground truth checks are partially automatable, and the rubric clearly targets constraint judgment.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-TR-0038",
+    "scores": {
+      "input_coherence": 3,
+      "gt_verifiability": 4,
+      "rubric_clarity": 2,
+      "reason": "The input provides a coherent scenario but lacks depth, the ground_truth is mostly verifiable except for tone markers, and the rubric's focus on 'constraint_judgment' is unclear without explicit constraints listed.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-TR-0040",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 4,
+      "reason": "The task presents a coherent scenario but lacks some context, the ground truth requires human judgment for tone markers, and the rubric is clear but focuses narrowly on signal grounding.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-TR-0041",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input provides a clear scenario with specific details, the ground truth has some verifiable elements but requires human judgment for banned phrases, and the rubric clearly targets signal_grounding.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-TR-0044",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 4,
+      "reason": "The scenario is coherent and realistic, but some ground_truth criteria require subjective interpretation.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-TR-0046",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The scenario is coherent but slightly niche, ground truth requires some interpretation, and the rubric is clearly focused on signal grounding.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-TR-0052",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 4,
+      "reason": "The input forms a realistic scenario but lacks some detail, the ground truth is partially automatable, and the rubric is clear but could be more specific.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-TR-0056",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The task clearly defines quality dimensions but lacks full automation potential.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0002",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input forms a coherent B2B scenario with clear signals, ground_truth requires some interpretation for banned phrases, and the rubric clearly targets qualification accuracy.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0005",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input forms a coherent B2B scenario with clear hiring signals and prospect metadata, the ground truth requires some interpretation for disqualification logic, and the rubric clearly tests qualification accuracy.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0006",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input forms a coherent B2B scenario with clear signals, but ground_truth verification requires some human judgment, and the rubric is unambiguous.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0009",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input forms a coherent B2B scenario with mixed signals, ground_truth verification is partially automatable but requires some judgment for 'correct_qualification', and the rubric clearly tests 'qualification_accuracy'.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0015",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input forms a coherent B2B scenario with clear signals, but ground truth verification requires some human judgment for nuanced qualification, while the rubric is unambiguous.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0016",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input forms a coherent B2B scenario, ground truth verification requires some human judgment, and the rubric clearly tests qualification accuracy.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0017",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input forms a coherent B2B scenario, the ground_truth has some automated checks but requires human judgment for tone, and the rubric clearly tests qualification accuracy.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0022",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input forms a coherent B2B scenario with clear parameters, the ground truth requires some interpretation for automatic checking, and the rubric clearly tests qualification accuracy.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0023",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input forms a coherent B2B scenario with clear constraints, the ground truth can be partially checked automatically but requires some human judgment for tone and banned phrases, and the rubric is very clear about testing qualification accuracy.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0026",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The task is coherent and tests qualification accuracy clearly, but ground truth verification requires nuanced human judgment.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0028",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The scenario is realistic but slightly vague, the ground truth requires some interpretation, and the rubric clearly focuses on qualification accuracy.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0029",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input forms a coherent B2B scenario, ground_truth requires some human judgment for tone markers, and the rubric clearly tests qualification accuracy.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0031",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input forms a coherent B2B scenario with clear constraints, ground truth verification is partially automatable but requires some judgment, and the rubric clearly targets qualification accuracy.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0034",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input forms a coherent B2B scenario with clear parameters, the ground truth has some verifiable elements but relies on subjective tone markers, and the rubric is unambiguous in testing qualification accuracy.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0037",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input forms a coherent B2B scenario with clear parameters, ground truth verification is partially automatable but requires some judgment, and the rubric clearly targets qualification accuracy.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0040",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input forms a coherent B2B scenario with clear parameters, the ground truth has some verifiable elements but requires human judgment for tone and banned phrases, and the rubric clearly targets qualification accuracy.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0046",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The scenario is coherent and realistic, the ground truth requires some human judgment, and the testing dimension is clearly defined.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0052",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input provides a detailed and realistic B2B scenario, the ground truth has some verifiable elements but requires human judgment for tone markers, and the rubric clearly specifies the dimension being tested.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0064",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input forms a coherent scenario, ground_truth requires some human judgment for banned phrases, and the rubric clearly tests constraint_judgment.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0068",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input forms a coherent B2B scenario with clear signals, the ground truth has some automated checks but requires judgment for tone markers, and the rubric clearly tests constraint judgment.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0071",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input forms a coherent B2B scenario, ground truth verification requires some human judgment for tone and banned phrases, and the rubric clearly targets constraint judgment.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0076",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input forms a coherent B2B scenario with clear constraints, ground_truth requires some human judgment for banned phrases and tone, and the rubric clearly tests constraint judgment.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0084",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The scenario is coherent but lacks depth, ground truth checks are partially automatable, and the rubric clearly targets constraint judgment.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0089",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input forms a coherent B2B scenario with clear constraints, ground_truth requires some human judgment for banned phrases and tone, and the rubric clearly tests constraint_judgment.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0101",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The task is coherent and clear but ground_truth verification requires some human judgment.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0102",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input forms a coherent B2B scenario with clear signals, the ground truth has some verifiable elements but relies on banned phrases and tone markers which may require human judgment, and the rubric clearly specifies the dimension being tested.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0103",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input provides a realistic scenario with clear constraints, the ground truth has some verifiable elements but requires judgment for tone and banned phrases, and the rubric clearly targets signal_grounding.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0104",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input provides a clear scenario with specific details, the ground truth has some verifiable elements but requires judgment for banned phrases, and the rubric clearly targets signal grounding.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0107",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input is coherent but lacks specific project details, ground_truth requires some human judgment for tone, and the rubric is clear about testing calibration.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0109",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input forms a coherent B2B scenario, ground truth verification is partially automatable, and the rubric clearly targets qualification accuracy.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0111",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The scenario is coherent but slightly vague on urgency, ground truth is partially automatable (e.g., banned phrases), and the rubric clearly tests calibration against hiring signals.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0113",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 4,
+      "reason": "The scenario is coherent but GT verification requires some human judgment.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0114",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 2,
+      "reason": "The task dimensions are somewhat clear but overlap ambiguously.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0117",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input forms a coherent B2B scenario, the ground truth has some automatable elements but requires human judgment for tone, and the rubric clearly tests qualification and tone adherence.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0118",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 4,
+      "reason": "The input forms a coherent B2B scenario, ground truth requires some human judgment for tone, and the rubric is clear but could specify dimensions more explicitly.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0123",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The hiring signal brief is coherent but slightly generic, ground_truth verification is partially automatable, and the rubric is clear.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0124",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input forms a coherent B2B scenario, ground truth requires some human judgment for tone markers, and the rubric clearly tests qualification accuracy.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0125",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The brief is coherent but lacks depth, ground_truth has subjective tone markers, and the rubric clearly tests tone_adherence.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0126",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The scenario is coherent and realistic, ground truth verification is partially automatable, and the rubric clearly targets tone adherence.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0127",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The brief is coherent but lacks specific industry context, ground truth requires some human judgment for tone adherence, and the rubric clearly targets tone adherence.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0129",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The hiring signal brief is coherent but slightly generic, ground_truth has some subjective elements, and the rubric clearly tests tone_adherence.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0131",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input forms a coherent B2B scenario, ground truth verification is partially automatable but requires some judgment, and the rubric clearly specifies the tested dimension.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0136",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The brief is coherent but lacks prospect-specific details, ground_truth has subjective tone markers, and the rubric clearly tests tone_adherence.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0138",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The task focuses clearly on tone adherence, though ground truth verification requires some human judgment.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0140",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The brief is coherent but slightly abstract, ground truth has some verifiable elements but relies on tone markers, and the rubric is clearly focused on tone adherence.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  },
+  {
+    "task_id": "TB-PG-0141",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The brief is coherent but slightly abstract, ground truth checks are partially automatable, and the rubric is crystal clear.",
+      "judge_model": "deepseek/deepseek-chat"
+    }
+  }
+]
