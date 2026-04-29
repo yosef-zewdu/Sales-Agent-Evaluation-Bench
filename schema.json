@@ -1,0 +1,250 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "tenacious-bench-v0.1",
+  "title": "Tenacious-Bench v0.1 Task Schema",
+  "description": "Schema for Tenacious-specific sales agent evaluation tasks. Every task is machine-verifiable by scoring_evaluator.py with no human in the loop.",
+  "type": "object",
+  "required": ["task_id", "source_mode", "difficulty", "dimension", "input", "candidate_output", "ground_truth", "rubric", "metadata"],
+  "properties": {
+    "task_id": {
+      "type": "string",
+      "description": "Unique task identifier, e.g. TB-0042"
+    },
+    "source_mode": {
+      "type": "string",
+      "enum": ["trace_derived", "programmatic", "multi_llm", "hand_authored"],
+      "description": "How the task was created"
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": ["easy", "medium", "hard", "adversarial"]
+    },
+    "dimension": {
+      "type": "string",
+      "description": "Primary failure dimension being tested",
+      "enum": [
+        "signal_grounding",
+        "tone_adherence",
+        "bench_calibration",
+        "qualification_accuracy",
+        "constraint_judgment",
+        "scheduling_hygiene",
+        "escalation_decision"
+      ]
+    },
+    "input": {
+      "type": "object",
+      "required": ["hiring_signal_brief", "bench_summary", "prior_thread", "prospect_metadata"],
+      "properties": {
+        "hiring_signal_brief": {
+          "type": "string",
+          "description": "Public signal that grounds the outreach"
+        },
+        "bench_summary": {
+          "type": "string",
+          "description": "Current Tenacious bench state for the relevant segment"
+        },
+        "prior_thread": {
+          "type": ["string", "null"],
+          "description": "Prior email thread if multi-turn; null for cold outreach"
+        },
+        "prospect_metadata": {
+          "type": "object",
+          "required": ["company", "size_band", "segment", "ai_maturity_score", "signal_confidence"],
+          "properties": {
+            "company":            { "type": "string" },
+            "size_band":          { "type": "string", "enum": ["1-10", "11-50", "51-200", "201-500", "500+"] },
+            "segment":            { "type": "string", "enum": ["engineering", "product", "data", "design"] },
+            "ai_maturity_score":  { "type": "integer", "minimum": 1, "maximum": 5 },
+            "signal_confidence":  { "type": "number", "minimum": 0.0, "maximum": 1.0 }
+          }
+        }
+      }
+    },
+    "candidate_output": {
+      "type": "string",
+      "description": "The agent-produced email or decision being evaluated"
+    },
+    "ground_truth": {
+      "type": "object",
+      "required": ["required_signal_refs", "banned_phrases", "required_cta", "tone_markers", "correct_qualification"],
+      "properties": {
+        "required_signal_refs": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Signal strings the output must reference (graded coverage)"
+        },
+        "banned_phrases": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Phrases whose presence in output triggers hard fail (score = 0)"
+        },
+        "required_cta": {
+          "type": ["string", "null"],
+          "description": "Required call-to-action type, e.g. calendar_link; null if CTA not required"
+        },
+        "tone_markers": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Five Tenacious tone dimensions scored 1-5 by LLM judge"
+        },
+        "correct_qualification": {
+          "type": "string",
+          "enum": ["qualify", "disqualify", "escalate"]
+        }
+      }
+    },
+    "rubric": {
+      "type": "object",
+      "description": "Weights must sum to 1.0; min_pass is the minimum dimension score (1-5) to pass",
+      "required": ["signal_grounding", "tone_adherence", "bench_calibration", "cta_hygiene", "qualification_accuracy"],
+      "properties": {
+        "signal_grounding":       { "type": "object", "properties": { "weight": { "type": "number" }, "min_pass": { "type": "integer" } } },
+        "tone_adherence":         { "type": "object", "properties": { "weight": { "type": "number" }, "min_pass": { "type": "integer" } } },
+        "bench_calibration":      { "type": "object", "properties": { "weight": { "type": "number" }, "min_pass": { "type": "integer" } } },
+        "cta_hygiene":            { "type": "object", "properties": { "weight": { "type": "number" }, "min_pass": { "type": "integer" } } },
+        "qualification_accuracy": { "type": "object", "properties": { "weight": { "type": "number" }, "min_pass": { "type": "integer" } } }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["created_date", "seed_trace_id", "seed_probe_id", "judge_filter_score", "partition"],
+      "properties": {
+        "created_date":       { "type": "string", "format": "date-time" },
+        "seed_trace_id":      { "type": ["string", "null"] },
+        "seed_probe_id":      { "type": ["string", "null"] },
+        "judge_filter_score": {
+          "type": ["object", "null"],
+          "properties": {
+            "input_coherence":   { "type": "integer", "minimum": 1, "maximum": 5 },
+            "gt_verifiability":  { "type": "integer", "minimum": 1, "maximum": 5 },
+            "rubric_clarity":    { "type": "integer", "minimum": 1, "maximum": 5 }
+          }
+        },
+        "partition": { "type": ["string", "null"], "enum": ["train", "dev", "held_out", null] }
+      }
+    }
+  },
+  "examples": [
+    {
+      "task_id": "TB-0001",
+      "source_mode": "trace_derived",
+      "difficulty": "hard",
+      "dimension": "signal_grounding",
+      "input": {
+        "hiring_signal_brief": "Acme Corp (Series B, 120 employees, engineering segment) posted 8 senior ML engineer roles in the last 30 days. Crunchbase shows $22M raised 3 months ago. ai_maturity_score=3, signal_confidence=0.85.",
+        "bench_summary": "Tenacious bench: 7 Python/ML engineers available (full bench). No data science bench.",
+        "prior_thread": null,
+        "prospect_metadata": {
+          "company": "Acme Corp",
+          "size_band": "51-200",
+          "segment": "engineering",
+          "ai_maturity_score": 3,
+          "signal_confidence": 0.85
+        }
+      },
+      "candidate_output": "Hi [Name], saw Acme's aggressive AI hiring push — 8 ML roles in 30 days is impressive momentum. We have 7 Tenacious engineers with deep Python/ML backgrounds who could accelerate your build. Worth a 20-minute call this week? https://cal.com/tenacious/intro",
+      "ground_truth": {
+        "required_signal_refs": ["8 ML engineer roles", "30 days", "Series B"],
+        "banned_phrases": ["aggressive", "impressive momentum", "disruptive", "excited to", "thrilled to", "game-changer"],
+        "required_cta": "calendar_link",
+        "tone_markers": ["consultative", "evidence-grounded", "no superlatives", "concise", "prospect-first"],
+        "correct_qualification": "qualify"
+      },
+      "rubric": {
+        "signal_grounding":       { "weight": 0.25, "min_pass": 3 },
+        "tone_adherence":         { "weight": 0.25, "min_pass": 3 },
+        "bench_calibration":      { "weight": 0.20, "min_pass": 3 },
+        "cta_hygiene":            { "weight": 0.15, "min_pass": 4 },
+        "qualification_accuracy": { "weight": 0.15, "min_pass": 4 }
+      },
+      "metadata": {
+        "created_date": "2026-04-29T00:00:00Z",
+        "seed_trace_id": "tr_3c1d449185b2",
+        "seed_probe_id": "P006",
+        "judge_filter_score": { "input_coherence": 5, "gt_verifiability": 5, "rubric_clarity": 4 },
+        "partition": "dev"
+      }
+    },
+    {
+      "task_id": "TB-0002",
+      "source_mode": "programmatic",
+      "difficulty": "adversarial",
+      "dimension": "constraint_judgment",
+      "input": {
+        "hiring_signal_brief": "BetaFlow Inc (Seed, 18 employees, product segment) mentioned AI automation interests in a LinkedIn post. signal_confidence=0.30. No funding news. ai_maturity_score=1.",
+        "bench_summary": "Tenacious bench: 2 product engineers available (thin bench). No ML bench.",
+        "prior_thread": null,
+        "prospect_metadata": {
+          "company": "BetaFlow Inc",
+          "size_band": "11-50",
+          "segment": "product",
+          "ai_maturity_score": 1,
+          "signal_confidence": 0.30
+        }
+      },
+      "candidate_output": "Hi [Name], BetaFlow's AI automation push and recent funding momentum show you're ready to scale fast. We have engineers who can help you lead the market. Let's connect: https://cal.com/tenacious/intro",
+      "ground_truth": {
+        "required_signal_refs": ["AI automation", "LinkedIn"],
+        "banned_phrases": ["aggressive", "disruptive", "game-changer", "excited to", "thrilled to", "lead the market", "funding momentum"],
+        "required_cta": null,
+        "tone_markers": ["consultative", "evidence-grounded", "no superlatives", "concise", "prospect-first"],
+        "correct_qualification": "disqualify"
+      },
+      "rubric": {
+        "signal_grounding":       { "weight": 0.25, "min_pass": 3 },
+        "tone_adherence":         { "weight": 0.25, "min_pass": 3 },
+        "bench_calibration":      { "weight": 0.20, "min_pass": 3 },
+        "cta_hygiene":            { "weight": 0.15, "min_pass": 4 },
+        "qualification_accuracy": { "weight": 0.15, "min_pass": 4 }
+      },
+      "metadata": {
+        "created_date": "2026-04-29T00:00:00Z",
+        "seed_trace_id": null,
+        "seed_probe_id": "P007",
+        "judge_filter_score": { "input_coherence": 5, "gt_verifiability": 4, "rubric_clarity": 5 },
+        "partition": "train"
+      }
+    },
+    {
+      "task_id": "TB-0003",
+      "source_mode": "hand_authored",
+      "difficulty": "adversarial",
+      "dimension": "tone_adherence",
+      "input": {
+        "hiring_signal_brief": "GammaTech (Series A, 65 employees, engineering segment) posted 3 senior backend roles in the last 14 days. No AI-specific roles. ai_maturity_score=2, signal_confidence=0.70.",
+        "bench_summary": "Tenacious bench: 4 backend/Python engineers available (partial bench). No dedicated ML bench.",
+        "prior_thread": null,
+        "prospect_metadata": {
+          "company": "GammaTech",
+          "size_band": "51-200",
+          "segment": "engineering",
+          "ai_maturity_score": 2,
+          "signal_confidence": 0.70
+        }
+      },
+      "candidate_output": "Hi [Name], we're thrilled to see GammaTech's exciting growth! You're clearly a game-changer in the backend space and we're passionate about helping disruptive companies like yours find the talent to build the future. We have engineers who would love to join your incredible journey. Let's chat — check out our availability at https://cal.com/tenacious/intro",
+      "ground_truth": {
+        "required_signal_refs": ["3 backend roles", "14 days", "Series A"],
+        "banned_phrases": ["thrilled", "exciting growth", "game-changer", "passionate about", "disruptive", "incredible journey", "love to join"],
+        "required_cta": "calendar_link",
+        "tone_markers": ["consultative", "evidence-grounded", "no superlatives", "concise", "prospect-first"],
+        "correct_qualification": "qualify"
+      },
+      "rubric": {
+        "signal_grounding":       { "weight": 0.25, "min_pass": 3 },
+        "tone_adherence":         { "weight": 0.25, "min_pass": 3 },
+        "bench_calibration":      { "weight": 0.20, "min_pass": 3 },
+        "cta_hygiene":            { "weight": 0.15, "min_pass": 4 },
+        "qualification_accuracy": { "weight": 0.15, "min_pass": 4 }
+      },
+      "metadata": {
+        "created_date": "2026-04-29T00:00:00Z",
+        "seed_trace_id": null,
+        "seed_probe_id": "P015",
+        "judge_filter_score": { "input_coherence": 5, "gt_verifiability": 5, "rubric_clarity": 5 },
+        "partition": "dev"
+      }
+    }
+  ]
+}
