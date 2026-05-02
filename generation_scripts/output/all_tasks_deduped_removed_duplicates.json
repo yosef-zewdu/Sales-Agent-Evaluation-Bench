@@ -1,0 +1,162 @@
+[
+  {
+    "removed_task_id": "TB-TR-0004",
+    "duplicate_of": "TB-TR-0001",
+    "cosine_similarity": 0.9854
+  },
+  {
+    "removed_task_id": "TB-TR-0006",
+    "duplicate_of": "TB-TR-0003",
+    "cosine_similarity": 0.9832
+  },
+  {
+    "removed_task_id": "TB-TR-0007",
+    "duplicate_of": "TB-TR-0001",
+    "cosine_similarity": 1.0
+  },
+  {
+    "removed_task_id": "TB-TR-0008",
+    "duplicate_of": "TB-TR-0003",
+    "cosine_similarity": 1.0
+  },
+  {
+    "removed_task_id": "TB-TR-0010",
+    "duplicate_of": "TB-TR-0001",
+    "cosine_similarity": 0.9851
+  },
+  {
+    "removed_task_id": "TB-TR-0011",
+    "duplicate_of": "TB-TR-0003",
+    "cosine_similarity": 0.9829
+  },
+  {
+    "removed_task_id": "TB-TR-0012",
+    "duplicate_of": "TB-TR-0003",
+    "cosine_similarity": 0.9829
+  },
+  {
+    "removed_task_id": "TB-TR-0014",
+    "duplicate_of": "TB-TR-0003",
+    "cosine_similarity": 0.8661
+  },
+  {
+    "removed_task_id": "TB-TR-0015",
+    "duplicate_of": "TB-TR-0003",
+    "cosine_similarity": 0.8661
+  },
+  {
+    "removed_task_id": "TB-TR-0018",
+    "duplicate_of": "TB-TR-0017",
+    "cosine_similarity": 1.0
+  },
+  {
+    "removed_task_id": "TB-TR-0019",
+    "duplicate_of": "TB-TR-0016",
+    "cosine_similarity": 1.0
+  },
+  {
+    "removed_task_id": "TB-TR-0020",
+    "duplicate_of": "TB-TR-0017",
+    "cosine_similarity": 1.0
+  },
+  {
+    "removed_task_id": "TB-TR-0021",
+    "duplicate_of": "TB-TR-0017",
+    "cosine_similarity": 1.0
+  },
+  {
+    "removed_task_id": "TB-TR-0022",
+    "duplicate_of": "TB-TR-0016",
+    "cosine_similarity": 1.0
+  },
+  {
+    "removed_task_id": "TB-TR-0023",
+    "duplicate_of": "TB-TR-0017",
+    "cosine_similarity": 1.0
+  },
+  {
+    "removed_task_id": "TB-TR-0024",
+    "duplicate_of": "TB-TR-0017",
+    "cosine_similarity": 1.0
+  },
+  {
+    "removed_task_id": "TB-TR-0025",
+    "duplicate_of": "TB-TR-0016",
+    "cosine_similarity": 1.0
+  },
+  {
+    "removed_task_id": "TB-TR-0027",
+    "duplicate_of": "TB-TR-0026",
+    "cosine_similarity": 1.0
+  },
+  {
+    "removed_task_id": "TB-TR-0030",
+    "duplicate_of": "TB-TR-0029",
+    "cosine_similarity": 1.0
+  },
+  {
+    "removed_task_id": "TB-TR-0033",
+    "duplicate_of": "TB-TR-0029",
+    "cosine_similarity": 1.0
+  },
+  {
+    "removed_task_id": "TB-TR-0045",
+    "duplicate_of": "TB-TR-0042",
+    "cosine_similarity": 0.9505
+  },
+  {
+    "removed_task_id": "TB-TR-0048",
+    "duplicate_of": "TB-TR-0047",
+    "cosine_similarity": 1.0
+  },
+  {
+    "removed_task_id": "TB-TR-0049",
+    "duplicate_of": "TB-TR-0043",
+    "cosine_similarity": 1.0
+  },
+  {
+    "removed_task_id": "TB-TR-0050",
+    "duplicate_of": "TB-TR-0042",
+    "cosine_similarity": 0.9347
+  },
+  {
+    "removed_task_id": "TB-TR-0051",
+    "duplicate_of": "TB-TR-0042",
+    "cosine_similarity": 0.9347
+  },
+  {
+    "removed_task_id": "TB-TR-0053",
+    "duplicate_of": "TB-TR-0003",
+    "cosine_similarity": 0.9623
+  },
+  {
+    "removed_task_id": "TB-TR-0054",
+    "duplicate_of": "TB-TR-0003",
+    "cosine_similarity": 0.9623
+  },
+  {
+    "removed_task_id": "TB-TR-0055",
+    "duplicate_of": "TB-TR-0013",
+    "cosine_similarity": 0.9815
+  },
+  {
+    "removed_task_id": "TB-TR-0057",
+    "duplicate_of": "TB-TR-0003",
+    "cosine_similarity": 0.8572
+  },
+  {
+    "removed_task_id": "TB-TR-0058",
+    "duplicate_of": "TB-TR-0001",
+    "cosine_similarity": 0.9854
+  },
+  {
+    "removed_task_id": "TB-TR-0059",
+    "duplicate_of": "TB-TR-0003",
+    "cosine_similarity": 0.9832
+  },
+  {
+    "removed_task_id": "TB-TR-0060",
+    "duplicate_of": "TB-TR-0003",
+    "cosine_similarity": 0.9832
+  }
+]
