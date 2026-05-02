@@ -1,0 +1,60 @@
+{
+  "_note": "Populated after Colab training run. baseline_summary.json contains pre-training baseline computed from held-out.",
+  "_status": "partial — baseline recorded, judge scores pending Colab run",
+
+  "delta_a": {
+    "_description": "Trained judge vs. Week 10 baseline on Tenacious-Bench held-out",
+    "required": true,
+    "significance_target": "p < 0.05 paired bootstrap",
+    "baseline_week10_signal_overclaiming": 0.80,
+    "baseline_tenacious_bench_held_out": "__FILL_AFTER_COLAB__",
+    "trained_judge_pass_at_1": "__FILL_AFTER_COLAB__",
+    "delta": "__FILL_AFTER_COLAB__",
+    "p_value": "__FILL_AFTER_COLAB__",
+    "n_tasks": 39
+  },
+
+  "delta_b": {
+    "_description": "Trained judge vs. prompt-engineered equivalent (no training, same backbone)",
+    "required": true,
+    "report_honestly_if_negative": true,
+    "prompt_only_pass_at_1": "__FILL_AFTER_COLAB__",
+    "trained_judge_pass_at_1": "__FILL_AFTER_COLAB__",
+    "delta": "__FILL_AFTER_COLAB__",
+    "p_value": "__FILL_AFTER_COLAB__"
+  },
+
+  "delta_c": {
+    "_description": "vs. Week 10 tau2-Bench retail (informational only — reuse existing number, no re-run)",
+    "required": true,
+    "reuse_existing_number": true,
+    "tau2_bench_retail_pass_at_1": 0.7267,
+    "tau2_bench_ci": [0.6504, 0.7917],
+    "judge_tau2_degradation_check": "__FILL_AFTER_COLAB__",
+    "_rule": "Judge must not degrade below 0.7267 on tau2-Bench retail tasks"
+  },
+
+  "cost_pareto": {
+    "_description": "Per-task cost and latency with/without trained judge component",
+    "baseline_cost_per_task_usd": 0.0,
+    "auto_opt_cost_per_task_usd": 0.04,
+    "trained_judge_cost_per_task_usd": "__FILL_AFTER_COLAB__",
+    "baseline_latency_p50_s": "__FILL_AFTER_COLAB__",
+    "trained_judge_latency_p50_s": "__FILL_AFTER_COLAB__",
+    "_reference": "Week 10 p50=105.95s, p95=551.65s, avg_cost=$0.0199/task"
+  },
+
+  "pre_training_checks": {
+    "n_pairs": 216,
+    "mean_score_gap": 3.72,
+    "min_score_gap": 1.35,
+    "max_score_gap": 4.65,
+    "kill_condition_pre_check": "PASS — mean_gap=3.72 >> 2.0 threshold (SimPO §2.3)",
+    "format_check": "PASS — all pairs have prompt/chosen/rejected fields",
+    "held_out_baseline_naive": {
+      "n_tasks": 39,
+      "pass_at_1_naive": 0.0256,
+      "_note": "Low because candidate_output fields are intentionally flawed (rejected-side outputs). Judge's pass@1 is measured against judge classifications, not naive scoring."
+    }
+  }
+}

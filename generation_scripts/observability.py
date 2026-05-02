@@ -32,6 +32,9 @@ _langfuse = Langfuse(
     secret_key=os.environ.get("LANGFUSE_SECRET_KEY", ""),
     public_key=os.environ.get("LANGFUSE_PUBLIC_KEY", ""),
     host=os.environ.get("LANGFUSE_BASE_URL", "https://cloud.langfuse.com"),
+    flush_interval=60,   # batch every 60s — don't block per-call
+    flush_at=50,         # batch at 50 events
+    timeout=5,           # 5s per upload attempt, not indefinite
 )
 
 
@@ -115,11 +118,9 @@ def traced_completion(
     return resp
 
 
-def flush_langfuse(timeout: float = 5.0) -> None:
-    """Flush pending Langfuse events with a timeout so network issues don't block scripts."""
-    import threading
-    t = threading.Thread(target=_langfuse.flush, daemon=True)
-    t.start()
-    t.join(timeout=timeout)
-    if t.is_alive():
-        print(f"  [observability] Langfuse flush timed out after {timeout}s — costs already in cost_log.csv.")
+def flush_langfuse() -> None:
+    """Best-effort Langfuse flush. Costs are already in cost_log.csv regardless."""
+    try:
+        _langfuse.flush()
+    except Exception:
+        pass

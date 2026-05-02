@@ -170,3 +170,1489 @@ timestamp,bucket,model_or_service,purpose,tokens_or_units,cost_usd
 2026-04-29T20:52:55Z,dataset_authoring,deepseek/deepseek-chat,variation seed_idx=24 dim=scheduling_hygiene,1517,0.001582
 2026-04-29T20:53:26Z,dataset_authoring,deepseek/deepseek-chat,variation seed_idx=25 dim=signal_grounding,1532,0.001608
 2026-04-29T20:53:54Z,dataset_authoring,deepseek/deepseek-chat,variation seed_idx=26 dim=qualification_accuracy,1418,0.001478
+2026-04-29T20:54:34Z,dataset_authoring,deepseek/deepseek-chat,variation seed_idx=27 dim=bench_calibration,1479,0.001538
+2026-04-29T20:56:09Z,dataset_authoring,anthropic/claude-sonnet-4.6,seed_gen batch=0 n=10,4495,0.061485
+2026-04-29T20:57:29Z,dataset_authoring,anthropic/claude-sonnet-4.6,seed_gen batch=1 n=10,4106,0.055650
+2026-04-29T20:58:45Z,dataset_authoring,anthropic/claude-sonnet-4.6,seed_gen batch=2 n=10,4495,0.061485
+2026-04-29T20:59:46Z,dataset_authoring,deepseek/deepseek-chat,variation seed_idx=28 dim=escalation_decision,1436,0.001044
+2026-04-29T20:59:50Z,dataset_authoring,anthropic/claude-sonnet-4.6,seed_gen batch=3 n=10,3894,0.052470
+2026-04-29T21:00:19Z,dataset_authoring,deepseek/deepseek-chat,variation seed_idx=0 dim=bench_calibration,1448,0.001529
+2026-04-29T21:00:23Z,dataset_authoring,deepseek/deepseek-chat,variation seed_idx=29 dim=constraint_judgment,1619,0.001689
+2026-04-29T21:00:46Z,dataset_authoring,deepseek/deepseek-chat,variation seed_idx=1 dim=signal_grounding,1332,0.001382
+2026-04-29T21:02:46Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0001 source=multi_llm,1436,0.001751
+2026-04-29T21:03:19Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0002 source=multi_llm,2715,0.004079
+2026-04-29T21:03:25Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0003 source=multi_llm,1031,0.001004
+2026-04-29T21:03:30Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0004 source=multi_llm,957,0.000900
+2026-04-29T21:03:36Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0005 source=multi_llm,886,0.000781
+2026-04-29T21:03:56Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0006 source=multi_llm,2003,0.002821
+2026-04-29T21:04:15Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0007 source=multi_llm,1884,0.002602
+2026-04-29T21:04:20Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0008 source=multi_llm,970,0.000945
+2026-04-29T21:04:27Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0009 source=multi_llm,1001,0.000980
+2026-04-29T21:04:35Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0010 source=multi_llm,1140,0.001250
+2026-04-29T21:04:46Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0011 source=multi_llm,1217,0.001381
+2026-04-29T21:04:53Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0001 source=trace_derived,638,0.000308
+2026-04-29T21:04:56Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0012 source=multi_llm,1292,0.001498
+2026-04-29T21:05:01Z,dataset_authoring,deepseek/deepseek-chat,variation seed_idx=2 dim=constraint_judgment,1219,0.000877
+2026-04-29T21:05:09Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0002 source=trace_derived,625,0.000228
+2026-04-29T21:05:12Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0003 source=trace_derived,650,0.000327
+2026-04-29T21:05:16Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0004 source=trace_derived,649,0.000323
+2026-04-29T21:05:19Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0005 source=trace_derived,651,0.000329
+2026-04-29T21:05:20Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0013 source=multi_llm,2219,0.003151
+2026-04-29T21:05:23Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0006 source=trace_derived,634,0.000307
+2026-04-29T21:05:27Z,dataset_authoring,deepseek/deepseek-chat,variation seed_idx=3 dim=qualification_accuracy,1442,0.001497
+2026-04-29T21:05:27Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0007 source=trace_derived,660,0.000337
+2026-04-29T21:05:27Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0014 source=multi_llm,1038,0.001007
+2026-04-29T21:05:31Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0008 source=trace_derived,639,0.000313
+2026-04-29T21:05:32Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0015 source=multi_llm,1009,0.000940
+2026-04-29T21:05:34Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0009 source=trace_derived,637,0.000311
+2026-04-29T21:05:38Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0016 source=multi_llm,944,0.000914
+2026-04-29T21:05:38Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0010 source=trace_derived,647,0.000320
+2026-04-29T21:05:42Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0011 source=trace_derived,652,0.000330
+2026-04-29T21:05:46Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0012 source=trace_derived,651,0.000329
+2026-04-29T21:05:50Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0013 source=trace_derived,636,0.000310
+2026-04-29T21:05:55Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0014 source=trace_derived,645,0.000316
+2026-04-29T21:05:55Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0017 source=multi_llm,1715,0.002310
+2026-04-29T21:05:58Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0015 source=trace_derived,647,0.000318
+2026-04-29T21:06:05Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0016 source=trace_derived,623,0.000318
+2026-04-29T21:06:07Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0018 source=multi_llm,1358,0.001672
+2026-04-29T21:06:09Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0017 source=trace_derived,631,0.000325
+2026-04-29T21:06:12Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0018 source=trace_derived,618,0.000308
+2026-04-29T21:06:17Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0019 source=trace_derived,631,0.000329
+2026-04-29T21:06:20Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0020 source=trace_derived,614,0.000303
+2026-04-29T21:06:23Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0021 source=trace_derived,610,0.000298
+2026-04-29T21:06:24Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0019 source=multi_llm,1676,0.002216
+2026-04-29T21:06:26Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0022 source=trace_derived,610,0.000302
+2026-04-29T21:06:29Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0023 source=trace_derived,614,0.000303
+2026-04-29T21:06:33Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0024 source=trace_derived,626,0.000319
+2026-04-29T21:06:37Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0025 source=trace_derived,625,0.000321
+2026-04-29T21:06:39Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0020 source=multi_llm,1484,0.001874
+2026-04-29T21:06:41Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0026 source=trace_derived,650,0.000341
+2026-04-29T21:06:44Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0027 source=trace_derived,624,0.000307
+2026-04-29T21:06:47Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0028 source=trace_derived,602,0.000306
+2026-04-29T21:06:49Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0021 source=multi_llm,1344,0.001601
+2026-04-29T21:06:50Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0029 source=trace_derived,602,0.000294
+2026-04-29T21:06:53Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0030 source=trace_derived,602,0.000294
+2026-04-29T21:06:55Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0022 source=multi_llm,956,0.000892
+2026-04-29T21:06:56Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0031 source=trace_derived,598,0.000300
+2026-04-29T21:07:00Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0032 source=trace_derived,626,0.000325
+2026-04-29T21:07:03Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0023 source=multi_llm,1224,0.001377
+2026-04-29T21:07:04Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0033 source=trace_derived,618,0.000315
+2026-04-29T21:07:08Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0034 source=trace_derived,614,0.000316
+2026-04-29T21:07:11Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0035 source=trace_derived,599,0.000293
+2026-04-29T21:07:11Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0024 source=multi_llm,1113,0.001168
+2026-04-29T21:07:14Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0036 source=trace_derived,614,0.000312
+2026-04-29T21:07:17Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0037 source=trace_derived,609,0.000309
+2026-04-29T21:07:21Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0025 source=multi_llm,1302,0.001508
+2026-04-29T21:07:21Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0038 source=trace_derived,621,0.000320
+2026-04-29T21:07:25Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0039 source=trace_derived,625,0.000326
+2026-04-29T21:07:28Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0026 source=multi_llm,1089,0.001121
+2026-04-29T21:07:29Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0040 source=trace_derived,607,0.000311
+2026-04-29T21:07:32Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0041 source=trace_derived,593,0.000294
+2026-04-29T21:07:36Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0042 source=trace_derived,594,0.000295
+2026-04-29T21:07:36Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0027 source=multi_llm,1234,0.001375
+2026-04-29T21:07:41Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0043 source=trace_derived,593,0.000293
+2026-04-29T21:07:46Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0044 source=trace_derived,596,0.000298
+2026-04-29T21:07:49Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0028 source=multi_llm,1364,0.001658
+2026-04-29T21:07:51Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0045 source=trace_derived,594,0.000295
+2026-04-29T21:07:54Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0046 source=trace_derived,594,0.000294
+2026-04-29T21:07:58Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0029 source=multi_llm,1105,0.001183
+2026-04-29T21:07:58Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0047 source=trace_derived,613,0.000315
+2026-04-29T21:08:02Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0048 source=trace_derived,601,0.000300
+2026-04-29T21:08:06Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0049 source=trace_derived,601,0.000303
+2026-04-29T21:08:10Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0050 source=trace_derived,590,0.000291
+2026-04-29T21:08:13Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0051 source=trace_derived,591,0.000292
+2026-04-29T21:08:16Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0052 source=trace_derived,640,0.000309
+2026-04-29T21:08:19Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0053 source=trace_derived,639,0.000311
+2026-04-29T21:08:22Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0054 source=trace_derived,637,0.000309
+2026-04-29T21:08:25Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0055 source=trace_derived,644,0.000319
+2026-04-29T21:08:27Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0030 source=multi_llm,2589,0.003875
+2026-04-29T21:08:28Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0056 source=trace_derived,645,0.000314
+2026-04-29T21:08:32Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0057 source=trace_derived,650,0.000320
+2026-04-29T21:08:35Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0058 source=trace_derived,643,0.000313
+2026-04-29T21:08:38Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0059 source=trace_derived,636,0.000307
+2026-04-29T21:08:41Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0060 source=trace_derived,641,0.000314
+2026-04-29T21:08:45Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0001 source=programmatic,561,0.000292
+2026-04-29T21:08:48Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0002 source=programmatic,580,0.000299
+2026-04-29T21:08:51Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0003 source=programmatic,566,0.000282
+2026-04-29T21:08:55Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0004 source=programmatic,588,0.000294
+2026-04-29T21:08:56Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0031 source=multi_llm,2502,0.003754
+2026-04-29T21:09:00Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0005 source=programmatic,556,0.000280
+2026-04-29T21:09:04Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0006 source=programmatic,580,0.000300
+2026-04-29T21:09:07Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0007 source=programmatic,586,0.000287
+2026-04-29T21:09:11Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0008 source=programmatic,567,0.000284
+2026-04-29T21:09:14Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0009 source=programmatic,564,0.000283
+2026-04-29T21:09:17Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0010 source=programmatic,571,0.000296
+2026-04-29T21:09:21Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0011 source=programmatic,590,0.000295
+2026-04-29T21:09:24Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0012 source=programmatic,559,0.000281
+2026-04-29T21:09:27Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0013 source=programmatic,585,0.000293
+2026-04-29T21:09:28Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0032 source=multi_llm,2282,0.003348
+2026-04-29T21:09:31Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0014 source=programmatic,603,0.000311
+2026-04-29T21:09:35Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0033 source=multi_llm,1035,0.001076
+2026-04-29T21:09:35Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0015 source=programmatic,555,0.000285
+2026-04-29T21:09:38Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0016 source=programmatic,565,0.000284
+2026-04-29T21:09:42Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0017 source=programmatic,576,0.000298
+2026-04-29T21:09:45Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0018 source=programmatic,562,0.000281
+2026-04-29T21:09:48Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0019 source=programmatic,585,0.000297
+2026-04-29T21:09:49Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0034 source=multi_llm,1598,0.002062
+2026-04-29T21:09:52Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0020 source=programmatic,590,0.000303
+2026-04-29T21:09:55Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0021 source=programmatic,569,0.000292
+2026-04-29T21:09:56Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0035 source=multi_llm,1083,0.001141
+2026-04-29T21:09:59Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0022 source=programmatic,561,0.000282
+2026-04-29T21:10:01Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0036 source=multi_llm,880,0.000758
+2026-04-29T21:10:02Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0023 source=programmatic,548,0.000275
+2026-04-29T21:10:07Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0024 source=programmatic,571,0.000297
+2026-04-29T21:10:08Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0037 source=multi_llm,1069,0.001117
+2026-04-29T21:10:10Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0025 source=programmatic,549,0.000281
+2026-04-29T21:10:13Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0026 source=programmatic,560,0.000282
+2026-04-29T21:10:17Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0027 source=programmatic,577,0.000300
+2026-04-29T21:10:21Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0028 source=programmatic,580,0.000298
+2026-04-29T21:10:24Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0029 source=programmatic,575,0.000298
+2026-04-29T21:10:25Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0038 source=multi_llm,1819,0.002466
+2026-04-29T21:10:28Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0030 source=programmatic,551,0.000278
+2026-04-29T21:10:31Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0031 source=programmatic,573,0.000288
+2026-04-29T21:10:35Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0032 source=programmatic,573,0.000301
+2026-04-29T21:10:39Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0039 source=multi_llm,1567,0.002017
+2026-04-29T21:10:39Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0033 source=programmatic,568,0.000282
+2026-04-29T21:10:40Z,dataset_authoring,deepseek/deepseek-chat,variation seed_idx=4 dim=scheduling_hygiene,1569,0.001142
+2026-04-29T21:10:42Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0034 source=programmatic,575,0.000304
+2026-04-29T21:10:45Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0040 source=multi_llm,1051,0.001068
+2026-04-29T21:10:46Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0035 source=programmatic,565,0.000292
+2026-04-29T21:10:49Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0036 source=programmatic,545,0.000271
+2026-04-29T21:10:52Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0037 source=programmatic,558,0.000288
+2026-04-29T21:10:55Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0038 source=programmatic,573,0.000288
+2026-04-29T21:10:58Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0041 source=multi_llm,1407,0.001727
+2026-04-29T21:10:59Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0039 source=programmatic,566,0.000295
+2026-04-29T21:11:03Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0040 source=programmatic,578,0.000292
+2026-04-29T21:11:08Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0042 source=multi_llm,1335,0.001577
+2026-04-29T21:11:09Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0041 source=programmatic,582,0.000305
+2026-04-29T21:11:13Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0042 source=programmatic,573,0.000289
+2026-04-29T21:11:17Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0043 source=programmatic,597,0.000307
+2026-04-29T21:11:19Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0043 source=multi_llm,1350,0.001547
+2026-04-29T21:11:22Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0044 source=programmatic,607,0.000324
+2026-04-29T21:11:27Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0045 source=programmatic,585,0.000290
+2026-04-29T21:11:29Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0044 source=multi_llm,1306,0.001443
+2026-04-29T21:11:36Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0046 source=programmatic,611,0.000320
+2026-04-29T21:11:39Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0047 source=programmatic,610,0.000318
+2026-04-29T21:11:42Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0048 source=programmatic,613,0.000309
+2026-04-29T21:11:46Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0045 source=multi_llm,1710,0.002174
+2026-04-29T21:11:47Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0049 source=programmatic,604,0.000307
+2026-04-29T21:11:53Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0050 source=programmatic,602,0.000307
+2026-04-29T21:11:57Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0051 source=programmatic,597,0.000300
+2026-04-29T21:11:57Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0046 source=multi_llm,1250,0.001423
+2026-04-29T21:12:01Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0052 source=programmatic,593,0.000304
+2026-04-29T21:12:03Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0047 source=multi_llm,1023,0.001036
+2026-04-29T21:12:05Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0053 source=programmatic,602,0.000321
+2026-04-29T21:12:10Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0054 source=programmatic,578,0.000297
+2026-04-29T21:12:13Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0055 source=programmatic,577,0.000287
+2026-04-29T21:12:17Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0056 source=programmatic,597,0.000311
+2026-04-29T21:12:21Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0057 source=programmatic,585,0.000304
+2026-04-29T21:12:22Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0048 source=multi_llm,1964,0.002747
+2026-04-29T21:12:25Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0058 source=programmatic,590,0.000294
+2026-04-29T21:12:30Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0049 source=multi_llm,1075,0.001103
+2026-04-29T21:12:30Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0059 source=programmatic,599,0.000304
+2026-04-29T21:12:34Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0060 source=programmatic,600,0.000298
+2026-04-29T21:12:37Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0050 source=multi_llm,1046,0.001041
+2026-04-29T21:12:38Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0061 source=programmatic,569,0.000289
+2026-04-29T21:12:47Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0062 source=programmatic,587,0.000294
+2026-04-29T21:12:52Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0051 source=multi_llm,1473,0.001832
+2026-04-29T21:12:52Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0063 source=programmatic,578,0.000300
+2026-04-29T21:12:56Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0064 source=programmatic,574,0.000293
+2026-04-29T21:12:59Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0065 source=programmatic,594,0.000308
+2026-04-29T21:13:00Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0052 source=multi_llm,1117,0.001240
+2026-04-29T21:13:02Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0066 source=programmatic,574,0.000284
+2026-04-29T21:13:06Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0067 source=programmatic,592,0.000298
+2026-04-29T21:13:08Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0053 source=multi_llm,1125,0.001259
+2026-04-29T21:13:10Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0068 source=programmatic,579,0.000296
+2026-04-29T21:13:13Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0069 source=programmatic,581,0.000290
+2026-04-29T21:13:16Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0070 source=programmatic,606,0.000298
+2026-04-29T21:13:20Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0071 source=programmatic,574,0.000291
+2026-04-29T21:13:23Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0072 source=programmatic,561,0.000280
+2026-04-29T21:13:23Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0054 source=multi_llm,1729,0.002332
+2026-04-29T21:13:26Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0073 source=programmatic,561,0.000284
+2026-04-29T21:13:30Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0074 source=programmatic,580,0.000306
+2026-04-29T21:13:33Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0075 source=programmatic,568,0.000283
+2026-04-29T21:13:34Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0055 source=multi_llm,1385,0.001663
+2026-04-29T21:13:37Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0076 source=programmatic,591,0.000307
+2026-04-29T21:13:40Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0077 source=programmatic,578,0.000292
+2026-04-29T21:13:41Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0056 source=multi_llm,1052,0.001051
+2026-04-29T21:13:44Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0078 source=programmatic,560,0.000277
+2026-04-29T21:13:47Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0079 source=programmatic,569,0.000285
+2026-04-29T21:13:50Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0057 source=multi_llm,1252,0.001417
+2026-04-29T21:13:51Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0080 source=programmatic,575,0.000291
+2026-04-29T21:13:54Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0081 source=programmatic,541,0.000268
+2026-04-29T21:13:57Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0082 source=programmatic,571,0.000291
+2026-04-29T21:14:00Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0058 source=multi_llm,1236,0.001407
+2026-04-29T21:14:01Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0083 source=programmatic,551,0.000277
+2026-04-29T21:14:04Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0084 source=programmatic,570,0.000283
+2026-04-29T21:14:06Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0059 source=multi_llm,1084,0.001113
+2026-04-29T21:14:07Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0085 source=programmatic,557,0.000279
+2026-04-29T21:14:11Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0086 source=programmatic,552,0.000273
+2026-04-29T21:14:12Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0060 source=multi_llm,1029,0.001013
+2026-04-29T21:14:14Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0087 source=programmatic,582,0.000289
+2026-04-29T21:14:17Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0088 source=programmatic,553,0.000276
+2026-04-29T21:14:19Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0061 source=multi_llm,1061,0.001094
+2026-04-29T21:14:20Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0089 source=programmatic,562,0.000280
+2026-04-29T21:14:24Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0090 source=programmatic,562,0.000289
+2026-04-29T21:14:27Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0091 source=programmatic,556,0.000275
+2026-04-29T21:14:28Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0062 source=multi_llm,1134,0.001215
+2026-04-29T21:14:30Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0092 source=programmatic,553,0.000279
+2026-04-29T21:14:32Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0063 source=multi_llm,866,0.000745
+2026-04-29T21:14:34Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0093 source=programmatic,582,0.000290
+2026-04-29T21:14:37Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0094 source=programmatic,566,0.000298
+2026-04-29T21:14:40Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0064 source=multi_llm,1123,0.001184
+2026-04-29T21:14:40Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0095 source=programmatic,553,0.000274
+2026-04-29T21:14:44Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0096 source=programmatic,561,0.000284
+2026-04-29T21:14:47Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0065 source=multi_llm,1020,0.000990
+2026-04-29T21:14:47Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0097 source=programmatic,549,0.000274
+2026-04-29T21:14:50Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0098 source=programmatic,585,0.000302
+2026-04-29T21:14:53Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0099 source=programmatic,553,0.000277
+2026-04-29T21:14:55Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0066 source=multi_llm,1227,0.001365
+2026-04-29T21:14:57Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0100 source=programmatic,558,0.000282
+2026-04-29T21:15:00Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0101 source=programmatic,591,0.000293
+2026-04-29T21:15:03Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0102 source=programmatic,568,0.000282
+2026-04-29T21:15:03Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0067 source=multi_llm,1174,0.001274
+2026-04-29T21:15:06Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0103 source=programmatic,561,0.000286
+2026-04-29T21:15:10Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0104 source=programmatic,564,0.000287
+2026-04-29T21:15:14Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0105 source=programmatic,579,0.000288
+2026-04-29T21:15:19Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0106 source=programmatic,571,0.000298
+2026-04-29T21:15:19Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0068 source=multi_llm,1778,0.002361
+2026-04-29T21:15:23Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0107 source=programmatic,555,0.000281
+2026-04-29T21:15:26Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0108 source=programmatic,552,0.000276
+2026-04-29T21:15:30Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0109 source=programmatic,563,0.000278
+2026-04-29T21:15:33Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0110 source=programmatic,554,0.000281
+2026-04-29T21:15:38Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0111 source=programmatic,563,0.000288
+2026-04-29T21:15:46Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0112 source=programmatic,549,0.000282
+2026-04-29T21:15:49Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0113 source=programmatic,560,0.000282
+2026-04-29T21:15:49Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0069 source=multi_llm,2896,0.004396
+2026-04-29T21:15:53Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0114 source=programmatic,556,0.000278
+2026-04-29T21:15:58Z,dataset_authoring,deepseek/deepseek-chat,variation seed_idx=5 dim=escalation_decision,1531,0.001118
+2026-04-29T21:15:59Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0115 source=programmatic,550,0.000277
+2026-04-29T21:16:04Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0116 source=programmatic,557,0.000292
+2026-04-29T21:16:07Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0117 source=programmatic,563,0.000290
+2026-04-29T21:16:10Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0070 source=multi_llm,2057,0.002910
+2026-04-29T21:16:11Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0118 source=programmatic,544,0.000272
+2026-04-29T21:16:16Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0119 source=programmatic,557,0.000281
+2026-04-29T21:16:29Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0071 source=multi_llm,1468,0.001823
+2026-04-29T21:16:35Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0072 source=multi_llm,929,0.000847
+2026-04-29T21:16:44Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0073 source=multi_llm,1145,0.001210
+2026-04-29T21:17:00Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0074 source=multi_llm,1874,0.002536
+2026-04-29T21:17:08Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0075 source=multi_llm,1135,0.001217
+2026-04-29T21:17:14Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0076 source=multi_llm,1050,0.001040
+2026-04-29T21:17:26Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0077 source=multi_llm,1497,0.001843
+2026-04-29T21:17:48Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0078 source=multi_llm,2084,0.002903
+2026-04-29T21:18:18Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0079 source=multi_llm,2599,0.003876
+2026-04-29T21:18:26Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0080 source=multi_llm,953,0.000913
+2026-04-29T21:18:53Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0081 source=multi_llm,1690,0.002231
+2026-04-29T21:19:12Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0082 source=multi_llm,1868,0.002513
+2026-04-29T21:19:19Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0083 source=multi_llm,1025,0.000981
+2026-04-29T21:19:33Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0084 source=multi_llm,1014,0.000988
+2026-04-29T21:19:39Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0001 source=trace_derived,640,0.000311
+2026-04-29T21:19:45Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0085 source=multi_llm,1057,0.001079
+2026-04-29T21:19:46Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0002 source=trace_derived,631,0.000303
+2026-04-29T21:19:50Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0003 source=trace_derived,640,0.000315
+2026-04-29T21:19:54Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0004 source=trace_derived,641,0.000312
+2026-04-29T21:19:58Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0086 source=multi_llm,1371,0.001673
+2026-04-29T21:19:58Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0005 source=trace_derived,647,0.000324
+2026-04-29T21:20:02Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0006 source=trace_derived,643,0.000318
+2026-04-29T21:20:05Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0007 source=trace_derived,641,0.000312
+2026-04-29T21:20:05Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0087 source=multi_llm,1031,0.001034
+2026-04-29T21:20:09Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0008 source=trace_derived,639,0.000313
+2026-04-29T21:20:12Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0009 source=trace_derived,639,0.000313
+2026-04-29T21:20:15Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0088 source=multi_llm,1289,0.001456
+2026-04-29T21:20:16Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0010 source=trace_derived,638,0.000308
+2026-04-29T21:20:19Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0011 source=trace_derived,650,0.000327
+2026-04-29T21:20:22Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0012 source=trace_derived,636,0.000309
+2026-04-29T21:20:23Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0089 source=multi_llm,1128,0.001162
+2026-04-29T21:20:25Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0013 source=trace_derived,638,0.000313
+2026-04-29T21:20:29Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0014 source=trace_derived,646,0.000317
+2026-04-29T21:20:30Z,dataset_authoring,qwen/qwen3-235b-a22b,pointwise_judge task=TB-ML-0090 source=multi_llm,1144,0.001193
+2026-04-29T21:20:32Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0015 source=trace_derived,649,0.000321
+2026-04-29T21:20:35Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0016 source=trace_derived,608,0.000299
+2026-04-29T21:20:38Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0017 source=trace_derived,617,0.000307
+2026-04-29T21:20:41Z,dataset_authoring,deepseek/deepseek-chat,variation seed_idx=6 dim=bench_calibration,1368,0.000990
+2026-04-29T21:20:42Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0018 source=trace_derived,631,0.000325
+2026-04-29T21:20:46Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0019 source=trace_derived,614,0.000307
+2026-04-29T21:20:50Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0020 source=trace_derived,617,0.000307
+2026-04-29T21:20:53Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0021 source=trace_derived,618,0.000308
+2026-04-29T21:20:57Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0022 source=trace_derived,607,0.000298
+2026-04-29T21:21:03Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0023 source=trace_derived,634,0.000329
+2026-04-29T21:21:09Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0024 source=trace_derived,612,0.000301
+2026-04-29T21:21:13Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0025 source=trace_derived,617,0.000311
+2026-04-29T21:21:16Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0026 source=trace_derived,624,0.000307
+2026-04-29T21:21:19Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0027 source=trace_derived,616,0.000297
+2026-04-29T21:21:23Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0028 source=trace_derived,593,0.000294
+2026-04-29T21:21:26Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0029 source=trace_derived,604,0.000296
+2026-04-29T21:21:29Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0030 source=trace_derived,603,0.000295
+2026-04-29T21:21:32Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0031 source=trace_derived,593,0.000294
+2026-04-29T21:21:35Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0032 source=trace_derived,608,0.000302
+2026-04-29T21:21:39Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0033 source=trace_derived,602,0.000294
+2026-04-29T21:21:42Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0034 source=trace_derived,600,0.000298
+2026-04-29T21:21:45Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0035 source=trace_derived,601,0.000295
+2026-04-29T21:21:48Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0036 source=trace_derived,598,0.000291
+2026-04-29T21:21:51Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0037 source=trace_derived,594,0.000290
+2026-04-29T21:21:54Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0038 source=trace_derived,602,0.000296
+2026-04-29T21:21:57Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0039 source=trace_derived,600,0.000293
+2026-04-29T21:22:01Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0040 source=trace_derived,602,0.000305
+2026-04-29T21:22:03Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0041 source=trace_derived,590,0.000290
+2026-04-29T21:22:06Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0042 source=trace_derived,590,0.000290
+2026-04-29T21:22:10Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0043 source=trace_derived,604,0.000307
+2026-04-29T21:22:13Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0044 source=trace_derived,598,0.000300
+2026-04-29T21:22:17Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0045 source=trace_derived,595,0.000296
+2026-04-29T21:22:20Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0046 source=trace_derived,593,0.000293
+2026-04-29T21:22:24Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0047 source=trace_derived,604,0.000304
+2026-04-29T21:22:27Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0048 source=trace_derived,608,0.000309
+2026-04-29T21:22:30Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0049 source=trace_derived,594,0.000294
+2026-04-29T21:22:34Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0050 source=trace_derived,604,0.000309
+2026-04-29T21:22:37Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0051 source=trace_derived,606,0.000312
+2026-04-29T21:22:40Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0052 source=trace_derived,649,0.000321
+2026-04-29T21:22:43Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0053 source=trace_derived,641,0.000314
+2026-04-29T21:22:46Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0054 source=trace_derived,638,0.000310
+2026-04-29T21:22:50Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0055 source=trace_derived,651,0.000328
+2026-04-29T21:22:53Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0056 source=trace_derived,647,0.000316
+2026-04-29T21:22:56Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0057 source=trace_derived,645,0.000314
+2026-04-29T21:22:59Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0058 source=trace_derived,645,0.000316
+2026-04-29T21:23:02Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0059 source=trace_derived,635,0.000306
+2026-04-29T21:23:06Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-TR-0060 source=trace_derived,650,0.000326
+2026-04-29T21:23:09Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0001 source=programmatic,550,0.000278
+2026-04-29T21:23:12Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0002 source=programmatic,570,0.000286
+2026-04-29T21:23:33Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0003 source=programmatic,567,0.000217
+2026-04-29T21:23:59Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0004 source=programmatic,589,0.000226
+2026-04-29T21:24:03Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0005 source=programmatic,562,0.000288
+2026-04-29T21:24:06Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0006 source=programmatic,565,0.000281
+2026-04-29T21:24:09Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0007 source=programmatic,596,0.000300
+2026-04-29T21:24:13Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0008 source=programmatic,562,0.000278
+2026-04-29T21:24:16Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0009 source=programmatic,564,0.000283
+2026-04-29T21:24:44Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0010 source=programmatic,550,0.000207
+2026-04-29T21:24:48Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0011 source=programmatic,583,0.000286
+2026-04-29T21:24:56Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0012 source=programmatic,557,0.000279
+2026-04-29T21:25:00Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0013 source=programmatic,584,0.000291
+2026-04-29T21:25:03Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0014 source=programmatic,595,0.000301
+2026-04-29T21:25:06Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0015 source=programmatic,549,0.000277
+2026-04-29T21:25:09Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0016 source=programmatic,569,0.000289
+2026-04-29T21:25:13Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0017 source=programmatic,565,0.000284
+2026-04-29T21:25:16Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0018 source=programmatic,569,0.000290
+2026-04-29T21:25:19Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0019 source=programmatic,590,0.000304
+2026-04-29T21:25:23Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0020 source=programmatic,580,0.000290
+2026-04-29T21:25:26Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0021 source=programmatic,554,0.000273
+2026-04-29T21:25:30Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0022 source=programmatic,560,0.000281
+2026-04-29T21:25:33Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0023 source=programmatic,550,0.000278
+2026-04-29T21:25:36Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0024 source=programmatic,563,0.000286
+2026-04-29T21:25:38Z,dataset_authoring,deepseek/deepseek-chat,variation seed_idx=7 dim=constraint_judgment,1307,0.000942
+2026-04-29T21:25:40Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0025 source=programmatic,550,0.000282
+2026-04-29T21:25:43Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0026 source=programmatic,560,0.000282
+2026-04-29T21:25:46Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0027 source=programmatic,562,0.000281
+2026-04-29T21:25:49Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0028 source=programmatic,574,0.000290
+2026-04-29T21:25:53Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0029 source=programmatic,558,0.000276
+2026-04-29T21:25:56Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0030 source=programmatic,562,0.000292
+2026-04-29T21:26:05Z,dataset_authoring,deepseek/deepseek-chat,variation seed_idx=8 dim=tone_adherence,1472,0.001532
+2026-04-29T21:26:16Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0031 source=programmatic,558,0.000207
+2026-04-29T21:26:19Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0032 source=programmatic,554,0.000276
+2026-04-29T21:26:23Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0033 source=programmatic,573,0.000289
+2026-04-29T21:26:31Z,dataset_authoring,deepseek/deepseek-chat,variation seed_idx=9 dim=qualification_accuracy,1421,0.001494
+2026-04-29T21:26:54Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0034 source=programmatic,551,0.000209
+2026-04-29T21:26:57Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0035 source=programmatic,556,0.000280
+2026-04-29T21:26:57Z,dataset_authoring,deepseek/deepseek-chat,variation seed_idx=10 dim=signal_grounding,1341,0.001382
+2026-04-29T21:27:00Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0036 source=programmatic,550,0.000278
+2026-04-29T21:27:03Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0037 source=programmatic,564,0.000296
+2026-04-29T21:27:07Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0038 source=programmatic,569,0.000282
+2026-04-29T21:27:10Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0039 source=programmatic,560,0.000287
+2026-04-29T21:27:13Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0040 source=programmatic,570,0.000282
+2026-04-29T21:27:34Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0041 source=programmatic,555,0.000208
+2026-04-29T21:27:38Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0042 source=programmatic,573,0.000289
+2026-04-29T21:27:42Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0043 source=programmatic,587,0.000294
+2026-04-29T21:28:02Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0044 source=programmatic,580,0.000222
+2026-04-29T21:28:06Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0045 source=programmatic,598,0.000307
+2026-04-29T21:28:10Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0046 source=programmatic,603,0.000310
+2026-04-29T21:28:13Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0047 source=programmatic,605,0.000311
+2026-04-29T21:28:33Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0048 source=programmatic,593,0.000219
+2026-04-29T21:28:37Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0049 source=programmatic,607,0.000311
+2026-04-29T21:28:41Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0050 source=programmatic,612,0.000320
+2026-04-29T21:28:45Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0051 source=programmatic,610,0.000317
+2026-04-29T21:28:48Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0052 source=programmatic,587,0.000296
+2026-04-29T21:28:51Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0053 source=programmatic,575,0.000286
+2026-04-29T21:28:55Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0054 source=programmatic,570,0.000287
+2026-04-29T21:29:00Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0055 source=programmatic,591,0.000305
+2026-04-29T21:29:15Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0056 source=programmatic,585,0.000295
+2026-04-29T21:29:21Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0057 source=programmatic,574,0.000290
+2026-04-29T21:29:27Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0058 source=programmatic,586,0.000288
+2026-04-29T21:29:36Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0059 source=programmatic,603,0.000310
+2026-04-29T21:29:54Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0060 source=programmatic,584,0.000215
+2026-04-29T21:30:37Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0061 source=programmatic,560,0.000277
+2026-04-29T21:30:41Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0062 source=programmatic,587,0.000294
+2026-04-29T21:30:46Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0063 source=programmatic,564,0.000282
+2026-04-29T21:30:52Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0064 source=programmatic,574,0.000293
+2026-04-29T21:31:00Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0065 source=programmatic,582,0.000292
+2026-04-29T21:31:09Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0066 source=programmatic,580,0.000292
+2026-04-29T21:31:18Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0067 source=programmatic,583,0.000286
+2026-04-29T21:31:31Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0068 source=programmatic,585,0.000304
+2026-04-29T21:31:34Z,dataset_authoring,deepseek/deepseek-chat,variation seed_idx=11 dim=constraint_judgment,1268,0.000922
+2026-04-29T21:31:39Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0069 source=programmatic,578,0.000286
+2026-04-29T21:31:47Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0070 source=programmatic,642,0.000345
+2026-04-29T21:31:58Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0071 source=programmatic,588,0.000309
+2026-04-29T21:32:05Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0072 source=programmatic,567,0.000288
+2026-04-29T21:32:06Z,dataset_authoring,deepseek/deepseek-chat,variation seed_idx=12 dim=bench_calibration,1405,0.001471
+2026-04-29T21:32:12Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0073 source=programmatic,571,0.000297
+2026-04-29T21:32:18Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0074 source=programmatic,570,0.000293
+2026-04-29T21:32:27Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0075 source=programmatic,572,0.000288
+2026-04-29T21:32:33Z,dataset_authoring,deepseek/deepseek-chat,variation seed_idx=13 dim=qualification_accuracy,1279,0.001338
+2026-04-29T21:32:37Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0076 source=programmatic,591,0.000307
+2026-04-29T21:32:44Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0077 source=programmatic,570,0.000282
+2026-04-29T21:33:01Z,dataset_authoring,deepseek/deepseek-chat,variation seed_idx=14 dim=scheduling_hygiene,1264,0.001317
+2026-04-29T21:33:01Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0078 source=programmatic,558,0.000275
+2026-04-29T21:33:12Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0079 source=programmatic,570,0.000287
+2026-04-29T21:33:23Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0080 source=programmatic,574,0.000290
+2026-04-29T21:33:27Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0081 source=programmatic,543,0.000270
+2026-04-29T21:33:34Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0082 source=programmatic,563,0.000281
+2026-04-29T21:33:49Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0083 source=programmatic,554,0.000281
+2026-04-29T21:33:59Z,dataset_authoring,deepseek/deepseek-chat,pointwise_judge task=TB-PG-0084 source=programmatic,591,0.000310
+2026-04-30T13:30:05Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0013,378,0.000106
+2026-04-30T13:30:19Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0016,326,0.000091
+2026-04-30T13:30:41Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0029,342,0.000096
+2026-04-30T13:31:05Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0039,311,0.000087
+2026-04-30T13:31:56Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0001,441,0.000123
+2026-04-30T13:32:28Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0003,434,0.000122
+2026-04-30T13:32:48Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0008,399,0.000112
+2026-04-30T13:32:59Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0009,399,0.000112
+2026-04-30T13:33:08Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0010,406,0.000114
+2026-04-30T13:33:27Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0012,420,0.000118
+2026-04-30T13:33:49Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0013,434,0.000122
+2026-04-30T13:34:15Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0014,409,0.000115
+2026-04-30T13:34:42Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0017,375,0.000105
+2026-04-30T13:34:52Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0020,388,0.000109
+2026-04-30T13:35:16Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0021,394,0.000110
+2026-04-30T13:35:24Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0013,370,0.000104
+2026-04-30T13:35:41Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0024,406,0.000114
+2026-04-30T13:35:50Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0016,337,0.000094
+2026-04-30T13:36:16Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0027,453,0.000127
+2026-04-30T13:36:29Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0029,323,0.000090
+2026-04-30T13:36:51Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0039,305,0.000085
+2026-04-30T13:37:00Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0029,431,0.000121
+2026-04-30T13:37:07Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0031,392,0.000110
+2026-04-30T13:37:20Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0032,395,0.000111
+2026-04-30T13:37:41Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0033,404,0.000113
+2026-04-30T13:38:06Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0001,430,0.000120
+2026-04-30T13:38:06Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0013,371,0.000104
+2026-04-30T13:38:13Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0034,417,0.000117
+2026-04-30T13:38:32Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0003,413,0.000116
+2026-04-30T13:38:35Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0016,329,0.000092
+2026-04-30T13:38:46Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0041,393,0.000110
+2026-04-30T13:38:57Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0043,387,0.000108
+2026-04-30T13:38:58Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0008,375,0.000105
+2026-04-30T13:39:02Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0029,353,0.000099
+2026-04-30T13:39:07Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0009,416,0.000116
+2026-04-30T13:39:20Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0048,403,0.000113
+2026-04-30T13:39:28Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0039,305,0.000085
+2026-04-30T13:39:33Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0010,406,0.000114
+2026-04-30T13:39:54Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0050,450,0.000126
+2026-04-30T13:39:57Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0012,410,0.000115
+2026-04-30T13:40:17Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0052,416,0.000116
+2026-04-30T13:40:20Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0001,430,0.000120
+2026-04-30T13:40:23Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0013,407,0.000114
+2026-04-30T13:40:29Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0003,419,0.000117
+2026-04-30T13:40:36Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0054,364,0.000102
+2026-04-30T13:40:44Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0014,413,0.000116
+2026-04-30T13:40:57Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0055,396,0.000111
+2026-04-30T13:41:02Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0008,402,0.000113
+2026-04-30T13:41:08Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0017,369,0.000103
+2026-04-30T13:41:14Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0009,403,0.000113
+2026-04-30T13:41:20Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0020,347,0.000097
+2026-04-30T13:41:38Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0059,441,0.000123
+2026-04-30T13:41:39Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0021,361,0.000101
+2026-04-30T13:41:45Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0010,397,0.000111
+2026-04-30T13:41:47Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0024,400,0.000112
+2026-04-30T13:41:58Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0012,393,0.000110
+2026-04-30T13:42:06Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0060,396,0.000111
+2026-04-30T13:42:17Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0013,436,0.000122
+2026-04-30T13:42:24Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0027,478,0.000134
+2026-04-30T13:42:33Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0061,417,0.000117
+2026-04-30T13:42:42Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0014,420,0.000118
+2026-04-30T13:42:45Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0029,439,0.000123
+2026-04-30T13:42:48Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0017,365,0.000102
+2026-04-30T13:42:56Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0020,376,0.000105
+2026-04-30T13:42:56Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0062,452,0.000127
+2026-04-30T13:43:22Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0031,400,0.000112
+2026-04-30T13:43:23Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0021,393,0.000110
+2026-04-30T13:43:43Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0068,391,0.000109
+2026-04-30T13:43:47Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0032,400,0.000112
+2026-04-30T13:43:51Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0024,386,0.000108
+2026-04-30T13:44:01Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0033,408,0.000114
+2026-04-30T13:44:15Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0076,432,0.000121
+2026-04-30T13:44:16Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0027,451,0.000126
+2026-04-30T13:44:26Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0034,420,0.000118
+2026-04-30T13:44:36Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0080,368,0.000103
+2026-04-30T13:44:42Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0029,423,0.000118
+2026-04-30T13:44:47Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0041,404,0.000113
+2026-04-30T13:45:02Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0031,408,0.000114
+2026-04-30T13:45:12Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0032,400,0.000112
+2026-04-30T13:45:16Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0082,402,0.000113
+2026-04-30T13:45:21Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0043,383,0.000107
+2026-04-30T13:45:22Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0033,419,0.000117
+2026-04-30T13:45:42Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0048,421,0.000118
+2026-04-30T13:45:44Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0034,420,0.000118
+2026-04-30T13:45:49Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0089,418,0.000117
+2026-04-30T13:46:00Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0090,444,0.000124
+2026-04-30T13:46:03Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0050,423,0.000118
+2026-04-30T13:46:12Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0041,418,0.000117
+2026-04-30T13:46:24Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0052,373,0.000104
+2026-04-30T13:46:29Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-004,361,0.000101
+2026-04-30T13:46:36Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0043,383,0.000107
+2026-04-30T13:46:38Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0054,385,0.000108
+2026-04-30T13:46:53Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-006,343,0.000096
+2026-04-30T13:47:15Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0048,416,0.000116
+2026-04-30T13:47:19Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0055,409,0.000115
+2026-04-30T13:47:22Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-008,373,0.000104
+2026-04-30T13:47:38Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0050,418,0.000117
+2026-04-30T13:47:44Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0059,424,0.000119
+2026-04-30T13:47:50Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0060,378,0.000106
+2026-04-30T13:47:54Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-011,303,0.000085
+2026-04-30T13:47:58Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0061,442,0.000124
+2026-04-30T13:48:01Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0052,380,0.000106
+2026-04-30T13:48:06Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0062,440,0.000123
+2026-04-30T13:48:12Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-012,364,0.000102
+2026-04-30T13:48:17Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0054,384,0.000108
+2026-04-30T13:48:23Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0068,399,0.000112
+2026-04-30T13:48:30Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-013,326,0.000091
+2026-04-30T13:48:31Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0076,423,0.000118
+2026-04-30T13:48:40Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0055,417,0.000117
+2026-04-30T13:48:56Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0080,369,0.000103
+2026-04-30T13:48:57Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-016,347,0.000097
+2026-04-30T13:48:59Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0059,451,0.000126
+2026-04-30T13:49:22Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-020,360,0.000101
+2026-04-30T13:49:30Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0082,431,0.000121
+2026-04-30T13:49:39Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0060,419,0.000117
+2026-04-30T13:49:47Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0061,465,0.000130
+2026-04-30T13:49:48Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-023,340,0.000095
+2026-04-30T13:50:01Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0089,434,0.000122
+2026-04-30T13:50:16Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-025,452,0.000127
+2026-04-30T13:50:23Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0062,430,0.000120
+2026-04-30T13:50:26Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0090,418,0.000117
+2026-04-30T13:50:34Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-027,397,0.000111
+2026-04-30T13:50:42Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0068,425,0.000119
+2026-04-30T13:50:51Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-004,349,0.000098
+2026-04-30T13:50:58Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-032,357,0.000100
+2026-04-30T13:51:00Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0076,418,0.000117
+2026-04-30T13:51:14Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-006,371,0.000104
+2026-04-30T13:51:16Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-035,399,0.000112
+2026-04-30T13:51:17Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0080,383,0.000107
+2026-04-30T13:51:32Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-008,367,0.000103
+2026-04-30T13:51:36Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0082,428,0.000120
+2026-04-30T13:51:41Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-037,375,0.000105
+2026-04-30T13:51:57Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-011,318,0.000089
+2026-04-30T13:52:02Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-038,385,0.000108
+2026-04-30T13:52:05Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0089,445,0.000125
+2026-04-30T13:52:14Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-012,358,0.000100
+2026-04-30T13:52:26Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0090,424,0.000119
+2026-04-30T13:52:31Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-039,416,0.000116
+2026-04-30T13:52:37Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-013,333,0.000093
+2026-04-30T13:53:07Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-040,425,0.000119
+2026-04-30T13:53:07Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-016,331,0.000093
+2026-04-30T13:53:18Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-004,358,0.000100
+2026-04-30T13:53:33Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-020,350,0.000098
+2026-04-30T13:53:49Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-006,369,0.000103
+2026-04-30T13:53:55Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-023,376,0.000105
+2026-04-30T13:54:22Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-008,363,0.000102
+2026-04-30T13:54:25Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-025,456,0.000128
+2026-04-30T13:54:44Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-027,417,0.000117
+2026-04-30T13:54:45Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-011,324,0.000091
+2026-04-30T13:55:08Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-032,357,0.000100
+2026-04-30T13:55:10Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-012,362,0.000101
+2026-04-30T13:55:39Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-035,391,0.000109
+2026-04-30T13:55:40Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-013,349,0.000098
+2026-04-30T13:55:58Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-016,336,0.000094
+2026-04-30T13:56:00Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-037,380,0.000106
+2026-04-30T13:56:24Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-020,327,0.000092
+2026-04-30T13:56:27Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-038,377,0.000106
+2026-04-30T13:56:40Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-023,351,0.000098
+2026-04-30T13:56:49Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-039,408,0.000114
+2026-04-30T13:56:54Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-025,446,0.000125
+2026-04-30T13:57:02Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-040,438,0.000123
+2026-04-30T13:57:15Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-027,414,0.000116
+2026-04-30T13:57:45Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-032,386,0.000108
+2026-04-30T13:58:11Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-035,400,0.000112
+2026-04-30T18:30:08Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-037,376,0.000105
+2026-04-30T18:30:21Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-038,373,0.000104
+2026-04-30T18:30:33Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-039,401,0.000112
+2026-04-30T18:30:44Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-040,409,0.000115
+2026-04-30T20:26:18Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0013,370,0.000104
+2026-04-30T20:26:36Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0016,322,0.000090
+2026-04-30T20:27:14Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0029,335,0.000094
+2026-04-30T20:27:46Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0039,313,0.000088
+2026-04-30T20:28:16Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,308,0.000086
+2026-04-30T20:29:11Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0001,434,0.000122
+2026-04-30T20:29:28Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0003,406,0.000114
+2026-04-30T20:29:42Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0008,375,0.000105
+2026-04-30T20:30:09Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0009,408,0.000114
+2026-04-30T20:30:44Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0010,393,0.000110
+2026-04-30T20:31:27Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0012,429,0.000120
+2026-04-30T20:31:48Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0013,435,0.000122
+2026-04-30T20:32:02Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0014,424,0.000119
+2026-04-30T20:32:23Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0017,395,0.000111
+2026-04-30T20:32:43Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0020,388,0.000109
+2026-04-30T20:33:10Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0021,372,0.000104
+2026-04-30T20:33:20Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0024,384,0.000108
+2026-04-30T20:33:45Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0027,437,0.000122
+2026-04-30T20:34:14Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0029,454,0.000127
+2026-04-30T20:34:42Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0031,380,0.000106
+2026-04-30T20:34:54Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0032,379,0.000106
+2026-04-30T20:35:19Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0033,402,0.000113
+2026-04-30T20:35:43Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0034,425,0.000119
+2026-04-30T20:36:11Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0041,406,0.000114
+2026-04-30T20:36:25Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0043,380,0.000106
+2026-04-30T20:36:50Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0048,409,0.000115
+2026-04-30T20:37:19Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0050,434,0.000122
+2026-04-30T20:37:45Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0052,396,0.000111
+2026-04-30T20:37:51Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0054,358,0.000100
+2026-04-30T20:38:04Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0055,410,0.000115
+2026-04-30T20:38:23Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0059,449,0.000126
+2026-04-30T20:38:49Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0060,407,0.000114
+2026-04-30T20:39:16Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0061,408,0.000114
+2026-04-30T20:39:35Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0062,449,0.000126
+2026-04-30T20:39:51Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0013,380,0.000106
+2026-04-30T20:40:08Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0068,397,0.000111
+2026-04-30T20:40:13Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0016,332,0.000093
+2026-04-30T20:40:28Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0076,402,0.000113
+2026-04-30T20:40:30Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0029,297,0.000083
+2026-04-30T20:40:44Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0080,333,0.000093
+2026-04-30T20:40:45Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0039,328,0.000092
+2026-04-30T20:41:17Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0082,409,0.000115
+2026-04-30T20:41:32Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0001,420,0.000118
+2026-04-30T20:41:48Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0089,395,0.000111
+2026-04-30T20:41:53Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0003,402,0.000113
+2026-04-30T20:42:20Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0090,391,0.000109
+2026-04-30T20:42:23Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0008,393,0.000110
+2026-04-30T20:42:36Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-004,350,0.000098
+2026-04-30T20:42:50Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0009,398,0.000111
+2026-04-30T20:42:59Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0010,400,0.000112
+2026-04-30T20:43:11Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-006,356,0.000100
+2026-04-30T20:43:19Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0012,422,0.000118
+2026-04-30T20:43:24Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-008,363,0.000102
+2026-04-30T20:43:36Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0013,434,0.000122
+2026-04-30T20:43:46Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-011,298,0.000083
+2026-04-30T20:43:51Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0014,430,0.000120
+2026-04-30T20:44:07Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-012,366,0.000102
+2026-04-30T20:44:16Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0017,384,0.000108
+2026-04-30T20:44:24Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-013,329,0.000092
+2026-04-30T20:44:24Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0020,396,0.000111
+2026-04-30T20:44:38Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-016,327,0.000092
+2026-04-30T20:44:52Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0021,386,0.000108
+2026-04-30T20:45:11Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-020,351,0.000098
+2026-04-30T20:45:16Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0024,393,0.000110
+2026-04-30T20:45:22Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0027,457,0.000128
+2026-04-30T20:45:28Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-023,336,0.000094
+2026-04-30T20:45:37Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0029,437,0.000122
+2026-04-30T20:45:51Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-025,473,0.000132
+2026-04-30T20:46:09Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0031,357,0.000100
+2026-04-30T20:46:09Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-027,406,0.000114
+2026-04-30T20:46:20Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0032,384,0.000108
+2026-04-30T20:46:52Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-032,363,0.000102
+2026-04-30T20:47:00Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0033,415,0.000116
+2026-04-30T20:47:14Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-035,410,0.000115
+2026-04-30T20:47:20Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0034,414,0.000116
+2026-04-30T20:47:22Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0013,366,0.000102
+2026-04-30T20:47:36Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-037,391,0.000109
+2026-04-30T20:47:41Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0016,328,0.000092
+2026-04-30T20:47:42Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0041,403,0.000113
+2026-04-30T20:47:57Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-038,388,0.000109
+2026-04-30T20:47:57Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0043,379,0.000106
+2026-04-30T20:48:06Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0029,339,0.000095
+2026-04-30T20:48:13Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-039,405,0.000113
+2026-04-30T20:48:15Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0048,397,0.000111
+2026-04-30T20:48:22Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0039,346,0.000097
+2026-04-30T20:48:32Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0050,416,0.000116
+2026-04-30T20:48:34Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-040,413,0.000116
+2026-04-30T20:48:38Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0052,391,0.000109
+2026-04-30T20:48:46Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0054,369,0.000103
+2026-04-30T20:48:57Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0001,425,0.000119
+2026-04-30T20:49:03Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0003,411,0.000115
+2026-04-30T20:49:05Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0055,386,0.000108
+2026-04-30T20:49:14Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0059,425,0.000119
+2026-04-30T20:49:33Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0008,394,0.000110
+2026-04-30T20:49:41Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0009,390,0.000109
+2026-04-30T20:49:42Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0060,407,0.000114
+2026-04-30T20:49:47Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0010,414,0.000116
+2026-04-30T20:50:04Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0061,435,0.000122
+2026-04-30T20:50:07Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0012,426,0.000119
+2026-04-30T20:50:21Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0062,412,0.000115
+2026-04-30T20:50:23Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0013,424,0.000119
+2026-04-30T20:50:27Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0068,412,0.000115
+2026-04-30T20:50:38Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0014,426,0.000119
+2026-04-30T20:50:44Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0076,406,0.000114
+2026-04-30T20:50:48Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0080,333,0.000093
+2026-04-30T20:50:57Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0017,385,0.000108
+2026-04-30T20:51:18Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0082,423,0.000118
+2026-04-30T20:51:37Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0020,371,0.000104
+2026-04-30T20:51:50Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0089,396,0.000111
+2026-04-30T20:51:53Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0021,382,0.000107
+2026-04-30T20:52:02Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0024,377,0.000106
+2026-04-30T20:52:15Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0090,426,0.000119
+2026-04-30T20:52:33Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0027,478,0.000134
+2026-04-30T20:52:50Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-004,346,0.000097
+2026-04-30T20:52:53Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0029,425,0.000119
+2026-04-30T20:53:04Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-006,351,0.000098
+2026-04-30T20:53:08Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0031,390,0.000109
+2026-04-30T20:53:14Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0032,416,0.000116
+2026-04-30T20:53:19Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-008,374,0.000105
+2026-04-30T20:53:31Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-011,304,0.000085
+2026-04-30T20:53:32Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0033,412,0.000115
+2026-04-30T20:53:43Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-012,344,0.000096
+2026-04-30T20:53:45Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0034,421,0.000118
+2026-04-30T20:54:13Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0041,406,0.000114
+2026-04-30T20:54:15Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-013,361,0.000101
+2026-04-30T20:54:25Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0043,396,0.000111
+2026-04-30T20:54:28Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-016,334,0.000094
+2026-04-30T20:54:43Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0048,406,0.000114
+2026-04-30T20:54:44Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-020,330,0.000092
+2026-04-30T20:55:07Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-023,384,0.000108
+2026-04-30T20:55:07Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0050,423,0.000118
+2026-04-30T20:55:15Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0052,359,0.000101
+2026-04-30T20:55:24Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0054,346,0.000097
+2026-04-30T20:55:28Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-025,455,0.000127
+2026-04-30T20:55:37Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0055,431,0.000121
+2026-04-30T20:55:52Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-027,386,0.000108
+2026-04-30T20:55:58Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0059,417,0.000117
+2026-04-30T20:56:15Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-032,342,0.000096
+2026-04-30T20:56:21Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0060,401,0.000112
+2026-04-30T20:56:31Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-035,386,0.000108
+2026-04-30T20:56:43Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0061,458,0.000128
+2026-04-30T20:56:54Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-037,378,0.000106
+2026-04-30T20:56:59Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0062,445,0.000125
+2026-04-30T20:57:21Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-038,379,0.000106
+2026-04-30T20:57:24Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0068,408,0.000114
+2026-04-30T20:57:42Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-039,423,0.000118
+2026-04-30T20:57:52Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0076,434,0.000122
+2026-04-30T20:58:07Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0080,347,0.000097
+2026-04-30T20:58:07Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-040,442,0.000124
+2026-04-30T20:58:23Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0082,422,0.000118
+2026-04-30T20:58:50Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0089,439,0.000123
+2026-04-30T20:59:04Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0090,390,0.000109
+2026-04-30T20:59:24Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-004,361,0.000101
+2026-04-30T20:59:45Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-006,343,0.000096
+2026-04-30T21:00:16Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-008,353,0.000099
+2026-04-30T21:00:40Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-011,319,0.000089
+2026-04-30T21:01:01Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-012,364,0.000102
+2026-04-30T21:01:24Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-013,313,0.000088
+2026-04-30T21:01:40Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-016,340,0.000095
+2026-04-30T21:01:58Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-020,348,0.000097
+2026-04-30T21:02:26Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-023,374,0.000105
+2026-04-30T21:02:46Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-025,433,0.000121
+2026-04-30T21:03:03Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-027,399,0.000112
+2026-04-30T21:03:26Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-032,360,0.000101
+2026-04-30T21:03:44Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-035,383,0.000107
+2026-04-30T21:03:57Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-037,373,0.000104
+2026-04-30T21:04:21Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-038,362,0.000101
+2026-04-30T21:04:53Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-039,403,0.000113
+2026-04-30T21:05:11Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-040,412,0.000115
+2026-05-01T06:07:15Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0013,368,0.000103
+2026-05-01T06:07:31Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0016,332,0.000093
+2026-05-01T06:07:50Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0029,354,0.000099
+2026-05-01T06:08:02Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0039,316,0.000088
+2026-05-01T06:08:33Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0001,438,0.000123
+2026-05-01T06:08:51Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0003,414,0.000116
+2026-05-01T06:09:11Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0008,407,0.000114
+2026-05-01T06:09:30Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0009,391,0.000109
+2026-05-01T06:09:41Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0010,418,0.000117
+2026-05-01T06:10:01Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0012,433,0.000121
+2026-05-01T06:10:20Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0013,446,0.000125
+2026-05-01T06:10:38Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0014,431,0.000121
+2026-05-01T06:10:59Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0017,393,0.000110
+2026-05-01T06:11:11Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0020,396,0.000111
+2026-05-01T06:11:34Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0021,425,0.000119
+2026-05-01T06:11:51Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0024,421,0.000118
+2026-05-01T06:12:02Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0027,443,0.000124
+2026-05-01T06:12:15Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0029,453,0.000127
+2026-05-01T06:12:37Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0031,394,0.000110
+2026-05-01T06:12:57Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0032,387,0.000108
+2026-05-01T06:13:10Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0033,382,0.000107
+2026-05-01T06:13:45Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0034,424,0.000119
+2026-05-01T06:14:21Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0041,418,0.000117
+2026-05-01T06:14:36Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0043,445,0.000125
+2026-05-01T06:14:49Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0048,392,0.000110
+2026-05-01T06:15:04Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0050,438,0.000123
+2026-05-01T06:15:19Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0052,415,0.000116
+2026-05-01T06:15:34Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0054,395,0.000111
+2026-05-01T06:15:49Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0055,416,0.000116
+2026-05-01T06:16:03Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0059,458,0.000128
+2026-05-01T06:16:37Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0060,431,0.000121
+2026-05-01T06:17:12Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0061,451,0.000126
+2026-05-01T06:17:36Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0062,434,0.000122
+2026-05-01T06:17:54Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0068,405,0.000113
+2026-05-01T06:18:08Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0076,458,0.000128
+2026-05-01T06:18:20Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0080,386,0.000108
+2026-05-01T06:18:38Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0082,427,0.000120
+2026-05-01T06:19:04Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0089,465,0.000130
+2026-05-01T06:19:24Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0090,464,0.000130
+2026-05-01T06:19:39Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-004,362,0.000101
+2026-05-01T06:19:53Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-006,364,0.000102
+2026-05-01T06:20:18Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-008,387,0.000108
+2026-05-01T06:20:38Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-011,309,0.000087
+2026-05-01T06:20:57Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-012,351,0.000098
+2026-05-01T06:21:11Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-013,327,0.000092
+2026-05-01T06:21:39Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-016,346,0.000097
+2026-05-01T06:21:54Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-020,358,0.000100
+2026-05-01T06:22:26Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-023,378,0.000106
+2026-05-01T06:22:46Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-025,428,0.000120
+2026-05-01T06:23:13Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-027,398,0.000111
+2026-05-01T06:23:31Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-032,369,0.000103
+2026-05-01T06:23:55Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-035,397,0.000111
+2026-05-01T06:24:11Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-037,369,0.000103
+2026-05-01T06:24:24Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-038,350,0.000098
+2026-05-01T06:24:44Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-039,419,0.000117
+2026-05-01T06:24:56Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-040,421,0.000118
+2026-05-01T06:58:31Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0013,360,0.000101
+2026-05-01T06:58:52Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0016,321,0.000090
+2026-05-01T06:59:18Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0029,334,0.000094
+2026-05-01T06:59:30Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0039,331,0.000093
+2026-05-01T06:59:55Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0001,424,0.000119
+2026-05-01T07:00:13Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0003,423,0.000118
+2026-05-01T07:00:33Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0008,413,0.000116
+2026-05-01T07:00:43Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0009,374,0.000105
+2026-05-01T07:01:00Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0010,405,0.000113
+2026-05-01T07:01:13Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0012,396,0.000111
+2026-05-01T07:01:25Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0013,422,0.000118
+2026-05-01T07:01:44Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0014,418,0.000117
+2026-05-01T07:01:57Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0017,387,0.000108
+2026-05-01T07:02:08Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0020,421,0.000118
+2026-05-01T07:02:27Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0021,418,0.000117
+2026-05-01T07:02:38Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0024,414,0.000116
+2026-05-01T07:02:55Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0027,460,0.000129
+2026-05-01T07:03:11Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0029,451,0.000126
+2026-05-01T07:03:23Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0031,382,0.000107
+2026-05-01T07:03:36Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0032,386,0.000108
+2026-05-01T07:03:59Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0033,368,0.000103
+2026-05-01T07:04:12Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0034,415,0.000116
+2026-05-01T07:04:26Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0041,414,0.000116
+2026-05-01T07:04:39Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0043,416,0.000116
+2026-05-01T07:04:51Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0048,393,0.000110
+2026-05-01T07:05:14Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0050,445,0.000125
+2026-05-01T07:05:33Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0052,374,0.000105
+2026-05-01T07:05:47Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0054,402,0.000113
+2026-05-01T07:06:08Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0055,415,0.000116
+2026-05-01T07:06:20Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0059,460,0.000129
+2026-05-01T07:06:36Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0060,422,0.000118
+2026-05-01T07:06:52Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0061,422,0.000118
+2026-05-01T07:07:05Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0062,418,0.000117
+2026-05-01T07:07:21Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0068,408,0.000114
+2026-05-01T07:07:42Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0076,462,0.000129
+2026-05-01T07:08:02Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0080,407,0.000114
+2026-05-01T07:08:15Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0082,423,0.000118
+2026-05-01T07:08:33Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0089,447,0.000125
+2026-05-01T07:08:55Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0090,475,0.000133
+2026-05-01T07:09:13Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-004,338,0.000095
+2026-05-01T07:09:30Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-006,353,0.000099
+2026-05-01T07:09:43Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-008,381,0.000107
+2026-05-01T07:10:04Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-011,345,0.000097
+2026-05-01T07:10:18Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-012,355,0.000099
+2026-05-01T07:10:30Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-013,336,0.000094
+2026-05-01T07:10:42Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-016,333,0.000093
+2026-05-01T07:10:55Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-020,355,0.000099
+2026-05-01T07:11:14Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-023,375,0.000105
+2026-05-01T07:11:33Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-025,437,0.000122
+2026-05-01T07:11:45Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-027,417,0.000117
+2026-05-01T07:12:00Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-032,362,0.000101
+2026-05-01T07:12:13Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-035,356,0.000100
+2026-05-01T07:12:26Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-037,353,0.000099
+2026-05-01T07:12:43Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-038,377,0.000106
+2026-05-01T07:13:02Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-039,398,0.000111
+2026-05-01T07:13:13Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-040,385,0.000108
+2026-05-01T09:04:05Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0004,451,0.000126
+2026-05-01T09:07:31Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0004,451,0.000126
+2026-05-01T09:08:52Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0007,455,0.000127
+2026-05-01T09:09:54Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0010,427,0.000120
+2026-05-01T09:12:24Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,318,0.000089
+2026-05-01T09:12:53Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,329,0.000092
+2026-05-01T09:13:20Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,324,0.000091
+2026-05-01T09:13:49Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,320,0.000090
+2026-05-01T09:14:22Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,321,0.000090
+2026-05-01T09:14:59Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,330,0.000092
+2026-05-01T09:15:34Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,321,0.000090
+2026-05-01T09:16:14Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,342,0.000096
+2026-05-01T09:16:43Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0013,382,0.000107
+2026-05-01T09:17:03Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0013,365,0.000102
+2026-05-01T09:17:28Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0013,411,0.000115
+2026-05-01T09:17:50Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0016,343,0.000096
+2026-05-01T09:18:10Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0016,327,0.000092
+2026-05-01T09:18:33Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0016,345,0.000097
+2026-05-01T09:18:46Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0029,333,0.000093
+2026-05-01T09:19:05Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0029,299,0.000084
+2026-05-01T09:19:23Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0029,304,0.000085
+2026-05-01T09:19:39Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0039,315,0.000088
+2026-05-01T09:19:56Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0039,307,0.000086
+2026-05-01T09:20:17Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0039,313,0.000088
+2026-05-01T09:20:45Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,323,0.000090
+2026-05-01T09:21:13Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,324,0.000091
+2026-05-01T09:21:43Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,335,0.000094
+2026-05-01T09:22:34Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0004,451,0.000126
+2026-05-01T09:23:49Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0007,455,0.000127
+2026-05-01T09:24:20Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0010,427,0.000120
+2026-05-01T09:25:14Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0011,452,0.000127
+2026-05-01T09:25:50Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0018,432,0.000121
+2026-05-01T09:26:26Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0019,444,0.000124
+2026-05-01T09:27:06Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0021,422,0.000118
+2026-05-01T09:27:30Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0024,423,0.000118
+2026-05-01T09:28:03Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0025,410,0.000115
+2026-05-01T09:28:35Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0032,418,0.000117
+2026-05-01T09:29:23Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0033,427,0.000120
+2026-05-01T09:30:04Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0036,414,0.000116
+2026-05-01T09:30:09Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0036,323,0.000090
+2026-05-01T09:30:29Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0036,326,0.000091
+2026-05-01T09:30:51Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0036,327,0.000092
+2026-05-01T09:31:07Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0041,427,0.000120
+2026-05-01T09:31:55Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0042,437,0.000122
+2026-05-01T09:32:42Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0044,442,0.000124
+2026-05-01T09:33:08Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0045,451,0.000126
+2026-05-01T09:33:35Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0050,454,0.000127
+2026-05-01T09:33:58Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0055,443,0.000124
+2026-05-01T09:34:42Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0062,452,0.000127
+2026-05-01T09:35:03Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0062,359,0.000101
+2026-05-01T09:35:15Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0062,366,0.000102
+2026-05-01T09:35:29Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0062,356,0.000100
+2026-05-01T09:35:46Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0063,435,0.000122
+2026-05-01T09:36:26Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0066,443,0.000124
+2026-05-01T09:36:39Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0066,340,0.000095
+2026-05-01T09:36:51Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0066,341,0.000095
+2026-05-01T09:37:05Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0066,328,0.000092
+2026-05-01T09:37:22Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0067,456,0.000128
+2026-05-01T09:37:46Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0069,445,0.000125
+2026-05-01T09:37:50Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0069,350,0.000098
+2026-05-01T09:38:02Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0069,358,0.000100
+2026-05-01T09:38:25Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0069,358,0.000100
+2026-05-01T09:38:42Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0072,432,0.000121
+2026-05-01T09:39:25Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0073,427,0.000120
+2026-05-01T09:40:06Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0074,430,0.000120
+2026-05-01T09:40:15Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0074,329,0.000092
+2026-05-01T09:40:26Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0074,321,0.000090
+2026-05-01T09:40:45Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0074,349,0.000098
+2026-05-01T09:41:02Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0075,440,0.000123
+2026-05-01T09:41:13Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0075,329,0.000092
+2026-05-01T09:41:31Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0075,348,0.000097
+2026-05-01T09:41:43Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0075,329,0.000092
+2026-05-01T09:42:19Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0077,440,0.000123
+2026-05-01T09:43:26Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0080,440,0.000123
+2026-05-01T09:43:32Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0080,339,0.000095
+2026-05-01T09:43:46Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0080,346,0.000097
+2026-05-01T09:43:58Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0080,347,0.000097
+2026-05-01T09:44:28Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0083,415,0.000116
+2026-05-01T09:45:12Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0087,439,0.000123
+2026-05-01T09:45:40Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0088,418,0.000117
+2026-05-01T09:46:37Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0093,438,0.000123
+2026-05-01T09:47:05Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0095,420,0.000118
+2026-05-01T09:47:17Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0095,322,0.000090
+2026-05-01T09:47:37Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0095,309,0.000087
+2026-05-01T09:47:58Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0095,312,0.000087
+2026-05-01T09:48:33Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0097,415,0.000116
+2026-05-01T09:49:23Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0098,431,0.000121
+2026-05-01T09:50:08Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0106,421,0.000118
+2026-05-01T09:50:40Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0110,413,0.000116
+2026-05-01T09:51:08Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0112,405,0.000113
+2026-05-01T09:51:37Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0115,412,0.000115
+2026-05-01T09:52:05Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0116,405,0.000113
+2026-05-01T09:52:55Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0119,417,0.000117
+2026-05-01T09:53:08Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0119,320,0.000090
+2026-05-01T09:53:26Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0119,336,0.000094
+2026-05-01T09:53:46Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0119,330,0.000092
+2026-05-01T09:54:04Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0120,423,0.000118
+2026-05-01T09:54:28Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0122,415,0.000116
+2026-05-01T09:54:53Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0134,392,0.000110
+2026-05-01T09:55:05Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0134,366,0.000102
+2026-05-01T09:55:28Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0134,384,0.000108
+2026-05-01T09:55:40Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0134,353,0.000099
+2026-05-01T09:56:10Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0135,337,0.000094
+2026-05-01T09:56:39Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0137,305,0.000085
+2026-05-01T09:57:23Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0139,352,0.000099
+2026-05-01T09:57:35Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0139,377,0.000106
+2026-05-01T09:57:58Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0139,377,0.000106
+2026-05-01T09:58:10Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0139,364,0.000102
+2026-05-01T09:58:22Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0142,318,0.000089
+2026-05-01T09:58:47Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0144,341,0.000095
+2026-05-01T09:58:59Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0144,358,0.000100
+2026-05-01T09:59:12Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0144,379,0.000106
+2026-05-01T09:59:29Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0144,353,0.000099
+2026-05-01T09:59:43Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0001,417,0.000117
+2026-05-01T10:00:01Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0001,413,0.000116
+2026-05-01T10:00:15Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0001,410,0.000115
+2026-05-01T10:00:32Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0003,406,0.000114
+2026-05-01T10:00:50Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0003,417,0.000117
+2026-05-01T10:01:11Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0003,418,0.000117
+2026-05-01T10:01:30Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0008,391,0.000109
+2026-05-01T10:01:43Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0008,406,0.000114
+2026-05-01T10:01:57Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0008,390,0.000109
+2026-05-01T10:02:20Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0009,393,0.000110
+2026-05-01T10:02:33Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0009,386,0.000108
+2026-05-01T10:02:57Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0009,402,0.000113
+2026-05-01T10:03:15Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0010,396,0.000111
+2026-05-01T10:03:27Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0010,412,0.000115
+2026-05-01T10:03:48Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0010,409,0.000115
+2026-05-01T10:04:01Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0012,414,0.000116
+2026-05-01T10:04:20Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0012,417,0.000117
+2026-05-01T10:04:34Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0012,396,0.000111
+2026-05-01T10:07:12Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,315,0.000088
+2026-05-01T10:07:39Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,322,0.000090
+2026-05-01T10:08:06Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,321,0.000090
+2026-05-01T10:08:49Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,307,0.000086
+2026-05-01T10:09:33Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,314,0.000088
+2026-05-01T10:10:33Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0016,323,0.000090
+2026-05-01T10:10:34Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0013,365,0.000102
+2026-05-01T10:10:39Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0029,310,0.000087
+2026-05-01T10:10:39Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0004,451,0.000126
+2026-05-01T10:10:41Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0039,338,0.000095
+2026-05-01T10:10:47Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,334,0.000094
+2026-05-01T10:10:47Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0010,427,0.000120
+2026-05-01T10:10:48Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0016,344,0.000096
+2026-05-01T10:10:52Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0029,313,0.000088
+2026-05-01T10:10:54Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0013,368,0.000103
+2026-05-01T10:10:56Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0007,455,0.000127
+2026-05-01T10:10:59Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0039,312,0.000087
+2026-05-01T10:11:01Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0016,325,0.000091
+2026-05-01T10:11:11Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0039,303,0.000085
+2026-05-01T10:11:12Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0011,452,0.000127
+2026-05-01T10:11:12Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,336,0.000094
+2026-05-01T10:11:12Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0029,349,0.000098
+2026-05-01T10:11:14Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0013,378,0.000106
+2026-05-01T10:11:30Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0025,410,0.000115
+2026-05-01T10:11:36Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0018,432,0.000121
+2026-05-01T10:11:39Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,336,0.000094
+2026-05-01T10:11:41Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0019,445,0.000125
+2026-05-01T10:11:44Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0021,422,0.000118
+2026-05-01T10:11:46Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0024,423,0.000118
+2026-05-01T10:11:55Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0033,427,0.000120
+2026-05-01T10:11:59Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0032,418,0.000117
+2026-05-01T10:12:09Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0042,437,0.000122
+2026-05-01T10:12:14Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0044,442,0.000124
+2026-05-01T10:12:15Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0045,451,0.000126
+2026-05-01T10:12:18Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0036,414,0.000116
+2026-05-01T10:12:20Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0041,427,0.000120
+2026-05-01T10:12:28Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0062,452,0.000127
+2026-05-01T10:12:32Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0063,435,0.000122
+2026-05-01T10:12:35Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0050,454,0.000127
+2026-05-01T10:12:35Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0066,443,0.000124
+2026-05-01T10:12:36Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0036,313,0.000088
+2026-05-01T10:12:37Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0055,443,0.000124
+2026-05-01T10:12:41Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0067,456,0.000128
+2026-05-01T10:12:44Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0069,445,0.000125
+2026-05-01T10:12:56Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0073,427,0.000120
+2026-05-01T10:13:00Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0074,430,0.000120
+2026-05-01T10:13:03Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0077,440,0.000123
+2026-05-01T10:13:09Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0080,440,0.000123
+2026-05-01T10:13:10Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0072,432,0.000121
+2026-05-01T10:13:15Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0073,348,0.000097
+2026-05-01T10:13:15Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0083,415,0.000116
+2026-05-01T10:13:18Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0087,439,0.000123
+2026-05-01T10:13:18Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0075,440,0.000123
+2026-05-01T10:13:28Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0088,418,0.000117
+2026-05-01T10:13:29Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0080,338,0.000095
+2026-05-01T10:13:31Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0093,438,0.000123
+2026-05-01T10:13:33Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0095,420,0.000118
+2026-05-01T10:13:41Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0097,415,0.000116
+2026-05-01T10:13:43Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0098,431,0.000121
+2026-05-01T10:13:45Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0106,421,0.000118
+2026-05-01T10:13:54Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0112,405,0.000113
+2026-05-01T10:14:03Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0116,405,0.000113
+2026-05-01T10:14:03Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0110,413,0.000116
+2026-05-01T10:14:05Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0119,417,0.000117
+2026-05-01T10:14:07Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0122,415,0.000116
+2026-05-01T10:14:07Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0134,318,0.000089
+2026-05-01T10:14:15Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0135,323,0.000090
+2026-05-01T10:14:15Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0115,412,0.000115
+2026-05-01T10:14:24Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0120,423,0.000118
+2026-05-01T10:14:30Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0139,350,0.000098
+2026-05-01T10:14:34Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0137,293,0.000082
+2026-05-01T10:14:39Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0001,417,0.000117
+2026-05-01T10:14:39Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0003,405,0.000113
+2026-05-01T10:14:40Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0142,297,0.000083
+2026-05-01T10:14:41Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0008,376,0.000105
+2026-05-01T10:14:43Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0144,312,0.000087
+2026-05-01T10:14:44Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0009,403,0.000113
+2026-05-01T10:14:51Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0001,416,0.000116
+2026-05-01T10:14:55Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0009,381,0.000107
+2026-05-01T10:14:56Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0010,412,0.000115
+2026-05-01T10:15:02Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0013,405,0.000113
+2026-05-01T10:15:03Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0008,389,0.000109
+2026-05-01T10:15:03Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0001,420,0.000118
+2026-05-01T10:15:05Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0003,429,0.000120
+2026-05-01T10:15:06Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0009,399,0.000112
+2026-05-01T10:15:07Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0012,425,0.000119
+2026-05-01T10:15:09Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0010,420,0.000118
+2026-05-01T10:15:16Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0003,406,0.000114
+2026-05-01T10:15:21Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0013,445,0.000125
+2026-05-01T10:15:22Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0014,410,0.000115
+2026-05-01T10:15:22Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0010,411,0.000115
+2026-05-01T10:15:24Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0017,386,0.000108
+2026-05-01T10:15:25Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0008,405,0.000113
+2026-05-01T10:15:26Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0020,401,0.000112
+2026-05-01T10:15:30Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0012,420,0.000118
+2026-05-01T10:15:31Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0021,428,0.000120
+2026-05-01T10:15:34Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0014,417,0.000117
+2026-05-01T10:15:36Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0024,417,0.000117
+2026-05-01T10:15:37Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0017,372,0.000104
+2026-05-01T10:15:37Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0027,436,0.000122
+2026-05-01T10:15:38Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0020,400,0.000112
+2026-05-01T10:15:42Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0013,419,0.000117
+2026-05-01T10:15:44Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0012,406,0.000114
+2026-05-01T10:15:44Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0021,433,0.000121
+2026-05-01T10:15:47Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0024,429,0.000120
+2026-05-01T10:15:48Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0014,429,0.000120
+2026-05-01T10:15:52Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0027,433,0.000121
+2026-05-01T10:15:58Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0017,399,0.000112
+2026-05-01T10:16:00Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0020,411,0.000115
+2026-05-01T10:16:00Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0024,396,0.000111
+2026-05-01T10:16:04Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0031,385,0.000108
+2026-05-01T10:16:05Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0029,465,0.000130
+2026-05-01T10:16:07Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0021,414,0.000116
+2026-05-01T10:16:11Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0032,396,0.000111
+2026-05-01T10:16:13Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0034,401,0.000112
+2026-05-01T10:16:13Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0033,402,0.000113
+2026-05-01T10:16:16Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0027,473,0.000132
+2026-05-01T10:16:23Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0041,428,0.000120
+2026-05-01T10:16:24Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0032,391,0.000109
+2026-05-01T10:16:25Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0031,374,0.000105
+2026-05-01T10:16:27Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0029,476,0.000133
+2026-05-01T10:16:30Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0043,451,0.000126
+2026-05-01T10:16:34Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0033,389,0.000109
+2026-05-01T10:16:37Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0031,400,0.000112
+2026-05-01T10:16:39Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0034,429,0.000120
+2026-05-01T10:16:41Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0048,462,0.000129
+2026-05-01T10:16:45Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0041,410,0.000115
+2026-05-01T10:16:46Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0032,387,0.000108
+2026-05-01T10:16:48Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0029,462,0.000129
+2026-05-01T10:16:49Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0043,413,0.000116
+2026-05-01T10:16:50Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0033,382,0.000107
+2026-05-01T10:16:58Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0054,372,0.000104
+2026-05-01T10:16:59Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0050,447,0.000125
+2026-05-01T10:17:00Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0048,404,0.000113
+2026-05-01T10:17:00Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0034,421,0.000118
+2026-05-01T10:17:01Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0055,413,0.000116
+2026-05-01T10:17:02Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0043,435,0.000122
+2026-05-01T10:17:04Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0041,401,0.000112
+2026-05-01T10:17:07Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0052,422,0.000118
+2026-05-01T10:17:18Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0060,421,0.000118
+2026-05-01T10:17:18Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0055,408,0.000114
+2026-05-01T10:17:19Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0048,433,0.000121
+2026-05-01T10:17:26Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0054,408,0.000114
+2026-05-01T10:17:28Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0052,382,0.000107
+2026-05-01T10:17:28Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0059,467,0.000131
+2026-05-01T10:17:29Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0050,442,0.000124
+2026-05-01T10:17:31Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0062,430,0.000120
+2026-05-01T10:17:35Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0061,443,0.000124
+2026-05-01T10:17:38Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0060,410,0.000115
+2026-05-01T10:17:39Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0059,441,0.000123
+2026-05-01T10:17:40Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0055,427,0.000120
+2026-05-01T10:17:43Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0062,422,0.000118
+2026-05-01T10:17:45Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0052,396,0.000111
+2026-05-01T10:17:45Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0054,404,0.000113
+2026-05-01T10:17:48Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0050,434,0.000122
+2026-05-01T10:17:50Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0060,424,0.000119
+2026-05-01T10:17:56Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0061,449,0.000126
+2026-05-01T10:18:01Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0068,445,0.000125
+2026-05-01T10:18:03Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0059,443,0.000124
+2026-05-01T10:18:06Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0082,425,0.000119
+2026-05-01T10:18:06Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0080,396,0.000111
+2026-05-01T10:18:07Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0062,450,0.000126
+2026-05-01T10:18:08Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0061,399,0.000112
+2026-05-01T10:18:08Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0076,455,0.000127
+2026-05-01T10:18:18Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0089,472,0.000132
+2026-05-01T10:18:22Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0068,415,0.000116
+2026-05-01T10:18:23Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0080,422,0.000118
+2026-05-01T10:18:24Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0082,428,0.000120
+2026-05-01T10:18:25Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0090,482,0.000135
+2026-05-01T10:18:26Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-004,335,0.000094
+2026-05-01T10:18:29Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0076,466,0.000130
+2026-05-01T10:18:31Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-006,377,0.000106
+2026-05-01T10:18:34Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0068,414,0.000116
+2026-05-01T10:18:35Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0082,422,0.000118
+2026-05-01T10:18:37Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0090,448,0.000125
+2026-05-01T10:18:37Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-004,349,0.000098
+2026-05-01T10:18:40Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0089,497,0.000139
+2026-05-01T10:18:40Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0076,422,0.000118
+2026-05-01T10:18:42Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-006,337,0.000094
+2026-05-01T10:18:43Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0080,412,0.000115
+2026-05-01T10:18:45Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-008,357,0.000100
+2026-05-01T10:18:47Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-011,325,0.000091
+2026-05-01T10:18:49Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0090,465,0.000130
+2026-05-01T10:18:50Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0089,460,0.000129
+2026-05-01T10:18:51Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-012,341,0.000095
+2026-05-01T10:18:53Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-006,362,0.000101
+2026-05-01T10:18:56Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-004,364,0.000102
+2026-05-01T10:18:56Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-008,346,0.000097
+2026-05-01T10:19:00Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-016,326,0.000091
+2026-05-01T10:19:06Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-013,354,0.000099
+2026-05-01T10:19:07Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-011,343,0.000096
+2026-05-01T10:19:07Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-025,398,0.000111
+2026-05-01T10:19:08Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-008,361,0.000101
+2026-05-01T10:19:08Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-020,343,0.000096
+2026-05-01T10:19:13Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-023,380,0.000106
+2026-05-01T10:19:15Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-012,367,0.000103
+2026-05-01T10:19:22Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-016,331,0.000093
+2026-05-01T10:19:28Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-020,345,0.000097
+2026-05-01T10:19:29Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-013,339,0.000095
+2026-05-01T10:19:32Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-011,335,0.000094
+2026-05-01T10:19:32Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-025,414,0.000116
+2026-05-01T10:19:33Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-016,313,0.000088
+2026-05-01T10:19:37Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-023,369,0.000103
+2026-05-01T10:19:40Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-012,366,0.000102
+2026-05-01T10:19:40Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-027,402,0.000113
+2026-05-01T10:19:48Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-013,329,0.000092
+2026-05-01T10:19:50Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-020,377,0.000106
+2026-05-01T10:19:51Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-035,366,0.000102
+2026-05-01T10:19:53Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-032,377,0.000106
+2026-05-01T10:19:54Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-025,429,0.000120
+2026-05-01T10:19:54Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-027,385,0.000108
+2026-05-01T10:19:56Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-023,354,0.000099
+2026-05-01T10:20:01Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-037,366,0.000102
+2026-05-01T10:20:01Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-038,369,0.000103
+2026-05-01T10:20:05Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-035,368,0.000103
+2026-05-01T10:20:10Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-032,384,0.000108
+2026-05-01T10:20:12Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-038,353,0.000099
+2026-05-01T10:20:14Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-037,381,0.000107
+2026-05-01T10:20:16Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-039,421,0.000118
+2026-05-01T10:20:17Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-040,421,0.000118
+2026-05-01T10:20:18Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-027,399,0.000112
+2026-05-01T10:20:23Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-032,356,0.000100
+2026-05-01T10:20:26Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-035,380,0.000106
+2026-05-01T10:20:27Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-039,393,0.000110
+2026-05-01T10:20:33Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-037,364,0.000102
+2026-05-01T10:20:38Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-038,394,0.000110
+2026-05-01T10:20:41Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-040,408,0.000114
+2026-05-01T10:20:49Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-039,395,0.000111
+2026-05-01T10:21:03Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-040,414,0.000116
+2026-05-01T10:22:40Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,322,0.000090
+2026-05-01T10:23:12Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,318,0.000089
+2026-05-01T10:23:40Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,320,0.000090
+2026-05-01T10:24:46Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,322,0.000090
+2026-05-01T10:29:53Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,303,0.000085
+2026-05-01T10:30:36Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,361,0.000101
+2026-05-01T10:31:08Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,324,0.000091
+2026-05-01T10:38:16Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,355,0.000099
+2026-05-01T10:38:46Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,345,0.000097
+2026-05-01T10:39:08Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,326,0.000091
+2026-05-01T10:39:30Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,303,0.000085
+2026-05-01T10:39:49Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0047,308,0.000086
+2026-05-01T10:41:03Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,335,0.000094
+2026-05-01T10:41:37Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,333,0.000093
+2026-05-01T10:42:08Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,333,0.000093
+2026-05-01T10:42:28Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0042,321,0.000090
+2026-05-01T10:42:50Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0047,345,0.000097
+2026-05-01T10:43:03Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0039,322,0.000090
+2026-05-01T10:43:04Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0013,384,0.000108
+2026-05-01T10:43:07Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0016,334,0.000094
+2026-05-01T10:43:07Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0029,348,0.000097
+2026-05-01T10:43:08Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0004,451,0.000126
+2026-05-01T10:43:09Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0007,455,0.000127
+2026-05-01T10:43:14Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0010,427,0.000120
+2026-05-01T10:43:15Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0039,309,0.000087
+2026-05-01T10:43:16Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0013,382,0.000107
+2026-05-01T10:43:19Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0016,334,0.000094
+2026-05-01T10:43:20Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0029,309,0.000087
+2026-05-01T10:43:24Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0011,452,0.000127
+2026-05-01T10:43:31Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0039,322,0.000090
+2026-05-01T10:43:33Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0013,366,0.000102
+2026-05-01T10:43:34Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0029,327,0.000092
+2026-05-01T10:43:36Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-TR-0016,313,0.000088
+2026-05-01T10:43:45Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0019,445,0.000125
+2026-05-01T10:43:49Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0021,422,0.000118
+2026-05-01T10:43:53Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0018,432,0.000121
+2026-05-01T10:43:53Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0036,414,0.000116
+2026-05-01T10:44:03Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0024,423,0.000118
+2026-05-01T10:44:04Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0025,410,0.000115
+2026-05-01T10:44:04Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0032,418,0.000117
+2026-05-01T10:44:05Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0033,427,0.000120
+2026-05-01T10:44:06Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0019,356,0.000100
+2026-05-01T10:44:11Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0041,427,0.000120
+2026-05-01T10:44:22Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0025,304,0.000085
+2026-05-01T10:44:22Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0044,442,0.000124
+2026-05-01T10:44:25Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0045,451,0.000126
+2026-05-01T10:44:32Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0055,443,0.000124
+2026-05-01T10:44:33Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0042,437,0.000122
+2026-05-01T10:44:39Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0050,454,0.000127
+2026-05-01T10:44:41Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0066,443,0.000124
+2026-05-01T10:44:50Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0062,452,0.000127
+2026-05-01T10:44:51Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0067,456,0.000128
+2026-05-01T10:44:52Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0063,435,0.000122
+2026-05-01T10:44:56Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0069,445,0.000125
+2026-05-01T10:44:57Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0072,432,0.000121
+2026-05-01T10:45:05Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0073,427,0.000120
+2026-05-01T10:45:06Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0074,430,0.000120
+2026-05-01T10:45:09Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0062,367,0.000103
+2026-05-01T10:45:13Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0075,440,0.000123
+2026-05-01T10:45:21Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0080,440,0.000123
+2026-05-01T10:45:22Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0087,439,0.000123
+2026-05-01T10:45:24Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-PG-0075,326,0.000091
+2026-05-01T10:45:31Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0095,420,0.000118
+2026-05-01T10:45:31Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0077,440,0.000123
+2026-05-01T10:45:36Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0083,415,0.000116
+2026-05-01T10:45:39Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0088,418,0.000117
+2026-05-01T10:45:42Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0097,415,0.000116
+2026-05-01T10:45:43Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0093,438,0.000123
+2026-05-01T10:45:58Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0098,431,0.000121
+2026-05-01T10:45:59Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0106,421,0.000118
+2026-05-01T10:46:00Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0115,412,0.000115
+2026-05-01T10:46:07Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0119,417,0.000117
+2026-05-01T10:46:10Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0110,413,0.000116
+2026-05-01T10:46:16Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0112,405,0.000113
+2026-05-01T10:46:20Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0122,415,0.000116
+2026-05-01T10:46:22Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0116,405,0.000113
+2026-05-01T10:46:27Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0120,423,0.000118
+2026-05-01T10:46:27Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0134,297,0.000083
+2026-05-01T10:46:34Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0139,346,0.000097
+2026-05-01T10:46:36Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0137,279,0.000078
+2026-05-01T10:46:37Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0135,310,0.000087
+2026-05-01T10:46:39Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0144,299,0.000084
+2026-05-01T10:46:39Z,dataset_authoring,deepseek/deepseek-chat,weak_baseline task=TB-PG-0142,377,0.000106
+2026-05-01T10:46:50Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0001,424,0.000119
+2026-05-01T10:46:51Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0003,415,0.000116
+2026-05-01T10:46:53Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0008,387,0.000108
+2026-05-01T10:46:56Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0010,395,0.000111
+2026-05-01T10:46:59Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0012,411,0.000115
+2026-05-01T10:46:59Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0009,402,0.000113
+2026-05-01T10:47:00Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0013,425,0.000119
+2026-05-01T10:47:03Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0001,419,0.000117
+2026-05-01T10:47:04Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0003,404,0.000113
+2026-05-01T10:47:06Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0008,384,0.000108
+2026-05-01T10:47:09Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0014,445,0.000125
+2026-05-01T10:47:12Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0009,392,0.000110
+2026-05-01T10:47:12Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0013,434,0.000122
+2026-05-01T10:47:12Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0010,419,0.000117
+2026-05-01T10:47:12Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0012,406,0.000114
+2026-05-01T10:47:21Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0008,381,0.000107
+2026-05-01T10:47:22Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0001,428,0.000120
+2026-05-01T10:47:23Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0003,417,0.000117
+2026-05-01T10:47:23Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0009,394,0.000110
+2026-05-01T10:47:25Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0014,411,0.000115
+2026-05-01T10:47:27Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0010,395,0.000111
+2026-05-01T10:47:29Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0012,415,0.000116
+2026-05-01T10:47:30Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0013,452,0.000127
+2026-05-01T10:47:34Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0017,373,0.000104
+2026-05-01T10:47:35Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0024,404,0.000113
+2026-05-01T10:47:37Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0020,410,0.000115
+2026-05-01T10:47:37Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0021,403,0.000113
+2026-05-01T10:47:37Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0014,428,0.000120
+2026-05-01T10:47:42Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0029,450,0.000126
+2026-05-01T10:47:42Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0031,396,0.000111
+2026-05-01T10:47:44Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0027,464,0.000130
+2026-05-01T10:47:45Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0024,403,0.000113
+2026-05-01T10:47:48Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0021,432,0.000121
+2026-05-01T10:47:51Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0017,382,0.000107
+2026-05-01T10:47:55Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0027,461,0.000129
+2026-05-01T10:47:56Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0032,410,0.000115
+2026-05-01T10:47:56Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0020,415,0.000116
+2026-05-01T10:47:57Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0024,408,0.000114
+2026-05-01T10:48:01Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0029,464,0.000130
+2026-05-01T10:48:01Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0031,386,0.000108
+2026-05-01T10:48:03Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0017,369,0.000103
+2026-05-01T10:48:08Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0020,422,0.000118
+2026-05-01T10:48:08Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0027,474,0.000133
+2026-05-01T10:48:10Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0021,423,0.000118
+2026-05-01T10:48:12Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0029,450,0.000126
+2026-05-01T10:48:14Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0032,386,0.000108
+2026-05-01T10:48:16Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0033,382,0.000107
+2026-05-01T10:48:16Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0034,399,0.000112
+2026-05-01T10:48:21Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0031,396,0.000111
+2026-05-01T10:48:26Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0041,407,0.000114
+2026-05-01T10:48:30Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0043,406,0.000114
+2026-05-01T10:48:32Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0050,439,0.000123
+2026-05-01T10:48:35Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0048,452,0.000127
+2026-05-01T10:48:38Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0041,407,0.000114
+2026-05-01T10:48:39Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0052,403,0.000113
+2026-05-01T10:48:45Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0033,411,0.000115
+2026-05-01T10:48:47Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0032,404,0.000113
+2026-05-01T10:48:48Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0043,413,0.000116
+2026-05-01T10:48:49Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0034,419,0.000117
+2026-05-01T10:48:54Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0052,375,0.000105
+2026-05-01T10:48:56Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0050,472,0.000132
+2026-05-01T10:48:58Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0033,395,0.000111
+2026-05-01T10:48:58Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0048,432,0.000121
+2026-05-01T10:48:58Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0041,413,0.000116
+2026-05-01T10:49:00Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0034,399,0.000112
+2026-05-01T10:49:03Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0050,445,0.000125
+2026-05-01T10:49:05Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0052,403,0.000113
+2026-05-01T10:49:10Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0054,410,0.000115
+2026-05-01T10:49:10Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0048,399,0.000112
+2026-05-01T10:49:11Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0043,422,0.000118
+2026-05-01T10:49:13Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0060,428,0.000120
+2026-05-01T10:49:14Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0061,407,0.000114
+2026-05-01T10:49:19Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0059,455,0.000127
+2026-05-01T10:49:19Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0055,420,0.000118
+2026-05-01T10:49:23Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0068,405,0.000113
+2026-05-01T10:49:23Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0076,442,0.000124
+2026-05-01T10:49:24Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0054,376,0.000105
+2026-05-01T10:49:24Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0062,440,0.000123
+2026-05-01T10:49:27Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0061,403,0.000113
+2026-05-01T10:49:29Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0060,416,0.000116
+2026-05-01T10:49:31Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0055,407,0.000114
+2026-05-01T10:49:34Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0076,434,0.000122
+2026-05-01T10:49:36Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0068,423,0.000118
+2026-05-01T10:49:39Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0059,453,0.000127
+2026-05-01T10:49:40Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0054,375,0.000105
+2026-05-01T10:49:42Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0062,415,0.000116
+2026-05-01T10:49:44Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0055,412,0.000115
+2026-05-01T10:49:46Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0061,415,0.000116
+2026-05-01T10:49:48Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0076,444,0.000124
+2026-05-01T10:49:50Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0060,422,0.000118
+2026-05-01T10:49:50Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0059,457,0.000128
+2026-05-01T10:49:53Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0080,399,0.000112
+2026-05-01T10:49:56Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0068,397,0.000111
+2026-05-01T10:49:57Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0062,448,0.000125
+2026-05-01T10:50:01Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0089,476,0.000133
+2026-05-01T10:50:04Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0082,458,0.000128
+2026-05-01T10:50:08Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-008,367,0.000103
+2026-05-01T10:50:09Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-011,311,0.000087
+2026-05-01T10:50:10Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0090,464,0.000130
+2026-05-01T10:50:10Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-004,349,0.000098
+2026-05-01T10:50:11Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-006,362,0.000101
+2026-05-01T10:50:12Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0089,477,0.000134
+2026-05-01T10:50:14Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0080,405,0.000113
+2026-05-01T10:50:19Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-011,307,0.000086
+2026-05-01T10:50:23Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0090,468,0.000131
+2026-05-01T10:50:23Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0082,416,0.000116
+2026-05-01T10:50:26Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0080,400,0.000112
+2026-05-01T10:50:26Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-006,349,0.000098
+2026-05-01T10:50:30Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-008,375,0.000105
+2026-05-01T10:50:32Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-004,376,0.000105
+2026-05-01T10:50:34Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0090,445,0.000125
+2026-05-01T10:50:35Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0082,422,0.000118
+2026-05-01T10:50:35Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-ML-0089,491,0.000137
+2026-05-01T10:50:39Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-012,352,0.000099
+2026-05-01T10:50:40Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-008,345,0.000097
+2026-05-01T10:50:40Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-011,341,0.000095
+2026-05-01T10:50:46Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-016,327,0.000092
+2026-05-01T10:50:46Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-013,326,0.000091
+2026-05-01T10:50:50Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-006,365,0.000102
+2026-05-01T10:50:51Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-012,343,0.000096
+2026-05-01T10:50:55Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-004,365,0.000102
+2026-05-01T10:50:56Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-020,360,0.000101
+2026-05-01T10:50:59Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-023,370,0.000104
+2026-05-01T10:51:00Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-013,323,0.000090
+2026-05-01T10:51:04Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-025,424,0.000119
+2026-05-01T10:51:05Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-016,318,0.000089
+2026-05-01T10:51:06Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-027,377,0.000106
+2026-05-01T10:51:07Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-012,353,0.000099
+2026-05-01T10:51:14Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-020,353,0.000099
+2026-05-01T10:51:14Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-032,380,0.000106
+2026-05-01T10:51:15Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-016,320,0.000090
+2026-05-01T10:51:16Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-023,355,0.000099
+2026-05-01T10:51:17Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-013,339,0.000095
+2026-05-01T10:51:23Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-027,386,0.000108
+2026-05-01T10:51:24Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-025,424,0.000119
+2026-05-01T10:51:26Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-032,354,0.000099
+2026-05-01T10:51:26Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-035,382,0.000107
+2026-05-01T10:51:26Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-037,340,0.000095
+2026-05-01T10:51:33Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-020,371,0.000104
+2026-05-01T10:51:34Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-023,368,0.000103
+2026-05-01T10:51:34Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-038,374,0.000105
+2026-05-01T10:51:36Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-027,366,0.000102
+2026-05-01T10:51:36Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-032,354,0.000099
+2026-05-01T10:51:44Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-025,422,0.000118
+2026-05-01T10:51:44Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-037,390,0.000109
+2026-05-01T10:51:45Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-039,414,0.000116
+2026-05-01T10:51:45Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-040,376,0.000105
+2026-05-01T10:51:47Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-035,403,0.000113
+2026-05-01T10:51:49Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-038,359,0.000101
+2026-05-01T10:51:57Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-039,418,0.000117
+2026-05-01T10:51:57Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-040,417,0.000117
+2026-05-01T10:52:00Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-038,353,0.000099
+2026-05-01T10:52:01Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-037,379,0.000106
+2026-05-01T10:52:03Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-035,358,0.000100
+2026-05-01T10:52:10Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-040,426,0.000119
+2026-05-01T10:52:13Z,dataset_authoring,deepseek/deepseek-chat,chosen_rewrite task=TB-HA-039,405,0.000113
+2026-05-02T08:00:00Z,training,Google Colab T4,Session 5 pre-training checks — score gap distribution + format validation,0,0.00
+2026-05-02T08:05:00Z,training,Google Colab T4,Session 5 training run — SimPO 3 epochs on 194 pairs (90% of 216) — Colab free tier,0,0.00
+2026-05-02T08:30:00Z,held_out_eval,scoring_evaluator (heuristic),Session 5 Delta A baseline — 39 held-out tasks scored without judge,0,0.00

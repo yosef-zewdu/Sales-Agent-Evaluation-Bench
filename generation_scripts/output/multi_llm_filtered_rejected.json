@@ -1,0 +1,232 @@
+[
+  {
+    "task_id": "TB-ML-0006",
+    "scores": {
+      "input_coherence": 5,
+      "gt_verifiability": 3,
+      "rubric_clarity": 4,
+      "reason": "The task presents a realistic B2B scenario with coherent elements aligning to the company's stage and needs, but verifying the ground truth requires subjective judgment on tone markers like 'consultative' that scripts might struggle to parse, while the rubric's focus on qualification accuracy is mostly clear but has some ambiguity in assessing tone and 'evidence-grounded' requirements.",
+      "judge_model": "qwen/qwen3-235b-a22b"
+    }
+  },
+  {
+    "task_id": "TB-ML-0011",
+    "scores": {
+      "input_coherence": 5,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The brief provides a realistic B2B scenario with clear signals, ground truth criteria include explicit checkable elements (e.g., message count, banned phrases, calendar link) but nuanced tone markers require subjective judgment, and the task directly tests escalation criteria adherence.",
+      "judge_model": "qwen/qwen3-235b-a22b"
+    }
+  },
+  {
+    "task_id": "TB-ML-0015",
+    "scores": {
+      "input_coherence": 5,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The task clearly tests scheduling hygiene with timezone conversion, but verifying tone markers like 'consultative' or 'evidence-grounded' may require human judgment beyond automated checks.",
+      "judge_model": "qwen/qwen3-235b-a22b"
+    }
+  },
+  {
+    "task_id": "TB-ML-0016",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The scenario has a size_band inconsistency but otherwise realistic. Ground truth requires checking partial output and banned phrases which may need context. The dimension 'signal_grounding' is clearly tested via explicit signal references and tone markers.",
+      "judge_model": "qwen/qwen3-235b-a22b"
+    }
+  },
+  {
+    "task_id": "TB-ML-0018",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "Input coherence is solid but edge case in size_band; ground truth has partial auto-verifiability (signal_refs/banned_phrases are scriptable but tone_markers require NLP judgment); dimension clarity is explicit via signal-grounded benchmarks.",
+      "judge_model": "qwen/qwen3-235b-a22b"
+    }
+  },
+  {
+    "task_id": "TB-ML-0019",
+    "scores": {
+      "input_coherence": 5,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input is realistic and coherent; ground truth verification is ambiguous due to potential conflicts in checking tone markers and precise escalation requirements; the task's focus on escalation decision is explicit.",
+      "judge_model": "qwen/qwen3-235b-a22b"
+    }
+  },
+  {
+    "task_id": "TB-ML-0025",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "Input coherent B2B scenario, ground truth verifiable but tone markers require judgment, rubric aligns directly with banned phrases for tone evaluation",
+      "judge_model": "qwen/qwen3-235b-a22b"
+    }
+  },
+  {
+    "task_id": "TB-ML-0028",
+    "scores": {
+      "input_coherence": 5,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The scenario is realistic, but the ground truth lacks explicit verifiable markers for critical constraints like 'must not assert match'; the dimension tested (constraint judgment) is clear.",
+      "judge_model": "qwen/qwen3-235b-a22b"
+    }
+  },
+  {
+    "task_id": "TB-ML-0035",
+    "scores": {
+      "input_coherence": 5,
+      "gt_verifiability": 3,
+      "rubric_clarity": 3,
+      "reason": "Input is coherent with realistic signals, but ground truth tone markers require human judgment, and multiple criteria complicate dimension clarity.",
+      "judge_model": "qwen/qwen3-235b-a22b"
+    }
+  },
+  {
+    "task_id": "TB-ML-0038",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 4,
+      "reason": "The hiring brief is mostly realistic but contains conflicting company size data; ground truth has mixed automation-checkable rules and logic-dependent qualifications; the task clearly targets qualification accuracy but has overlapping rubric elements.",
+      "judge_model": "qwen/qwen3-235b-a22b"
+    }
+  },
+  {
+    "task_id": "TB-ML-0039",
+    "scores": {
+      "input_coherence": 3,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input has conflicting company size data (hiring signal states 18 people vs metadata 51-200), ground truth requires both verifiable checks (signal refs, banned phrases) and judgment-based tone analysis, and the task explicitly tests qualification accuracy against predefined ICP criteria.",
+      "judge_model": "qwen/qwen3-235b-a22b"
+    }
+  },
+  {
+    "task_id": "TB-ML-0064",
+    "scores": {
+      "input_coherence": 5,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The scenario is realistic for B2B sales qualification, but verifying tone markers like 'consultative' and 'evidence-grounded' requires subjective judgment. The rubric clearly tests qualification accuracy against specified criteria.",
+      "judge_model": "qwen/qwen3-235b-a22b"
+    }
+  },
+  {
+    "task_id": "TB-ML-0065",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The scenario is realistic but stretches hiring signal relevance (4), ground truth includes both verifiable and subjective elements (3), and the dimension 'qualification_accuracy' is crystal-clear as the candidate's output should disqualify the prospect",
+      "judge_model": "qwen/qwen3-235b-a22b"
+    }
+  },
+  {
+    "task_id": "TB-ML-0066",
+    "scores": {
+      "input_coherence": 5,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The hiring signal brief is realistic and coherent, the ground truth includes partially automatable checks but requires subjective tone judgment, and the task clearly tests qualification accuracy by verifying explicit ICP alignment.",
+      "judge_model": "qwen/qwen3-235b-a22b"
+    }
+  },
+  {
+    "task_id": "TB-ML-0069",
+    "scores": {
+      "input_coherence": 2,
+      "gt_verifiability": 3,
+      "rubric_clarity": 4,
+      "reason": "The input has conflicting data (size_band vs LinkedIn headcount), making the scenario unrealistic. Ground truth checks like tone and qualification are not fully automatable, but required references are verifiable. The dimension focuses on signal grounding but includes overlapping criteria.",
+      "judge_model": "qwen/qwen3-235b-a22b"
+    }
+  },
+  {
+    "task_id": "TB-ML-0070",
+    "scores": {
+      "input_coherence": 3,
+      "gt_verifiability": 2,
+      "rubric_clarity": 4,
+      "reason": "Coherence is weakened by conflicting prospect size (15 vs. 51-200 employees) and missing prior_thread; verifiability is limited by subjective tone checks; rubric is mostly clear but assumes policy-P017 escalation logic is directly inferable from the input.",
+      "judge_model": "qwen/qwen3-235b-a22b"
+    }
+  },
+  {
+    "task_id": "TB-ML-0072",
+    "scores": {
+      "input_coherence": 5,
+      "gt_verifiability": 3,
+      "rubric_clarity": 4,
+      "reason": "Input forms a realistic scenario, ground truth requires human judgment for tone markers, and dimension is clear but not all criteria are machine-verifiable.",
+      "judge_model": "qwen/qwen3-235b-a22b"
+    }
+  },
+  {
+    "task_id": "TB-ML-0073",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The task clearly tests scheduling hygiene but ground truth tone markers like 'consultative' may require subjective judgment.",
+      "judge_model": "qwen/qwen3-235b-a22b"
+    }
+  },
+  {
+    "task_id": "TB-ML-0074",
+    "scores": {
+      "input_coherence": 5,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The task requires time zone conversion and scheduling alignment, making the dimension clearly test scheduling hygiene, but verifying ground truth requires checking timezone logic beyond regex matching banned phrases and calendar links.",
+      "judge_model": "qwen/qwen3-235b-a22b"
+    }
+  },
+  {
+    "task_id": "TB-ML-0077",
+    "scores": {
+      "input_coherence": 4,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input is mostly coherent but has minor inconsistencies like company size discrepancy; ground truth elements like banned phrases (e.g., 'impressive') can be ambiguous for automated detection; signal_grounding dimension is explicitly clear as it tests how accurately claims align with provided data.",
+      "judge_model": "qwen/qwen3-235b-a22b"
+    }
+  },
+  {
+    "task_id": "TB-ML-0084",
+    "scores": {
+      "input_coherence": 5,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The input is a realistic B2B scenario with clear constraints; ground truth includes both verifiable elements (dates, banned phrases, CTA) and subjective tone markers requiring human judgment; the rubric clearly tests accurate availability calibration without overcommitment.",
+      "judge_model": "qwen/qwen3-235b-a22b"
+    }
+  },
+  {
+    "task_id": "TB-ML-0086",
+    "scores": {
+      "input_coherence": 5,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The scenario is realistic with a clear escalation trigger, though the ground truth verification struggles with contextual policy enforcement beyond keyword checks, while the dimension explicitly tests escalation logic.",
+      "judge_model": "qwen/qwen3-235b-a22b"
+    }
+  },
+  {
+    "task_id": "TB-ML-0088",
+    "scores": {
+      "input_coherence": 5,
+      "gt_verifiability": 3,
+      "rubric_clarity": 5,
+      "reason": "The scenario is coherent with realistic B2B sales details, the ground truth has some script-verifiable elements but tone assessment requires NLP sophistication, and the constraint_judgment dimension is clearly defined in metadata and required responses",
+      "judge_model": "qwen/qwen3-235b-a22b"
+    }
+  }
+]

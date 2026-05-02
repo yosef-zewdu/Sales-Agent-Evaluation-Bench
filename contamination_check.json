@@ -1,0 +1,1000 @@
+{
+  "overall_pass": false,
+  "ngram_check": {
+    "passed": false,
+    "threshold": "8-gram",
+    "flagged_pairs": [
+      {
+        "held_task_id": "TB-TR-0001",
+        "train_task_id": "TB-TR-0013",
+        "overlapping_ngrams": [
+          "60 days. job_post_velocity_60d=2.8 \u2014 below the 3.0 threshold.",
+          "4 senior ml engineer roles over 60 days.",
+          "$10m, engineering segment) posted 4 senior ml engineer",
+          "roles over 60 days. job_post_velocity_60d=2.8 \u2014 below the",
+          "engineer roles over 60 days. job_post_velocity_60d=2.8 \u2014 below"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0003",
+        "train_task_id": "TB-PG-0004",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0003",
+        "train_task_id": "TB-PG-0007",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0003",
+        "train_task_id": "TB-PG-0010",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0003",
+        "train_task_id": "TB-PG-0011",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0003",
+        "train_task_id": "TB-PG-0018",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0003",
+        "train_task_id": "TB-PG-0019",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0003",
+        "train_task_id": "TB-PG-0062",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0003",
+        "train_task_id": "TB-PG-0063",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0003",
+        "train_task_id": "TB-PG-0066",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0003",
+        "train_task_id": "TB-PG-0067",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0003",
+        "train_task_id": "TB-PG-0069",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0003",
+        "train_task_id": "TB-PG-0072",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0003",
+        "train_task_id": "TB-PG-0073",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0003",
+        "train_task_id": "TB-PG-0074",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0003",
+        "train_task_id": "TB-PG-0075",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0003",
+        "train_task_id": "TB-PG-0077",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0003",
+        "train_task_id": "TB-PG-0080",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0014",
+        "train_task_id": "TB-PG-0004",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "to unqualified prospects. *(note: numeric values and logic",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "2026). tenacious bench: 7 python/ml engineers available (full)."
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0014",
+        "train_task_id": "TB-PG-0007",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0014",
+        "train_task_id": "TB-PG-0010",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0014",
+        "train_task_id": "TB-PG-0011",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "to unqualified prospects. *(note: numeric values and logic",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "2026). tenacious bench: 7 python/ml engineers available (full)."
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0014",
+        "train_task_id": "TB-PG-0018",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0014",
+        "train_task_id": "TB-PG-0019",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "realism.)* (signal observed q1 2026). tenacious bench: 7",
+          "for realism.)* (signal observed q1 2026). tenacious bench:",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0014",
+        "train_task_id": "TB-PG-0062",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0014",
+        "train_task_id": "TB-PG-0063",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0014",
+        "train_task_id": "TB-PG-0066",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0014",
+        "train_task_id": "TB-PG-0067",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0014",
+        "train_task_id": "TB-PG-0069",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0014",
+        "train_task_id": "TB-PG-0072",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0014",
+        "train_task_id": "TB-PG-0073",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0014",
+        "train_task_id": "TB-PG-0074",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0014",
+        "train_task_id": "TB-PG-0075",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0014",
+        "train_task_id": "TB-PG-0077",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0014",
+        "train_task_id": "TB-PG-0080",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0020",
+        "train_task_id": "TB-PG-0004",
+        "overlapping_ngrams": [
+          "signals (layoffs + hiring). strictly align with icp\u2014never",
+          "with icp\u2014never pitch s4 to unqualified prospects. *(note:",
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "+ hiring). strictly align with icp\u2014never pitch s4",
+          "mixed signals (layoffs + hiring). strictly align with"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0020",
+        "train_task_id": "TB-PG-0007",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "*(note: numeric values and logic constraints preserved as",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "2026). tenacious bench: 7 python/ml engineers available (full)."
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0020",
+        "train_task_id": "TB-PG-0010",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0020",
+        "train_task_id": "TB-PG-0011",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "to unqualified prospects. *(note: numeric values and logic",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "s4 to unqualified prospects. *(note: numeric values and"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0020",
+        "train_task_id": "TB-PG-0018",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0020",
+        "train_task_id": "TB-PG-0019",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0020",
+        "train_task_id": "TB-PG-0062",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0020",
+        "train_task_id": "TB-PG-0063",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0020",
+        "train_task_id": "TB-PG-0066",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0020",
+        "train_task_id": "TB-PG-0067",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0020",
+        "train_task_id": "TB-PG-0069",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0020",
+        "train_task_id": "TB-PG-0072",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0020",
+        "train_task_id": "TB-PG-0073",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0020",
+        "train_task_id": "TB-PG-0074",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0020",
+        "train_task_id": "TB-PG-0075",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0020",
+        "train_task_id": "TB-PG-0077",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0020",
+        "train_task_id": "TB-PG-0080",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0030",
+        "train_task_id": "TB-PG-0025",
+        "overlapping_ngrams": [
+          "unless their ai maturity score reaches at least",
+          "least 2.\" tenacious bench: 7 python/ml engineers available",
+          "at least 2.\" tenacious bench: 7 python/ml engineers",
+          "their ai maturity score reaches at least 2.\"",
+          "s4 ai solutions unless their ai maturity score"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0030",
+        "train_task_id": "TB-PG-0032",
+        "overlapping_ngrams": [
+          "2.\" tenacious bench: 7 python/ml engineers available (full)."
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0030",
+        "train_task_id": "TB-PG-0095",
+        "overlapping_ngrams": [
+          "2.\" tenacious bench: 7 python/ml engineers available (full)."
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0030",
+        "train_task_id": "TB-PG-0097",
+        "overlapping_ngrams": [
+          "2.\" tenacious bench: 7 python/ml engineers available (full)."
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0039",
+        "train_task_id": "TB-PG-0024",
+        "overlapping_ngrams": [
+          "201-500 employees and an ai maturity score of"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0039",
+        "train_task_id": "TB-PG-0083",
+        "overlapping_ngrams": [
+          "2. tenacious bench: 7 python/ml engineers available (full)."
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0039",
+        "train_task_id": "TB-PG-0088",
+        "overlapping_ngrams": [
+          "below 2. tenacious bench: 7 python/ml engineers available",
+          "2. tenacious bench: 7 python/ml engineers available (full)."
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0047",
+        "train_task_id": "TB-PG-0045",
+        "overlapping_ngrams": [
+          "{job_post_count} engineering openings over the past 60 days",
+          "company has listed {job_post_count} engineering openings over the",
+          "the company has listed {job_post_count} engineering openings over",
+          "has listed {job_post_count} engineering openings over the past",
+          "listed {job_post_count} engineering openings over the past 60"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0047",
+        "train_task_id": "TB-PG-0050",
+        "overlapping_ngrams": [
+          "overly assertive hiring language unless thresholds are met.",
+          "{job_post_count} engineering openings over the past 60 days",
+          "3.0 benchmark). with moderate signal confidence (0.5), proceed",
+          "company has listed {job_post_count} engineering openings over the",
+          "the company has listed {job_post_count} engineering openings over"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0047",
+        "train_task_id": "TB-PG-0055",
+        "overlapping_ngrams": [
+          "{job_post_count} engineering openings over the past 60 days",
+          "company has listed {job_post_count} engineering openings over the",
+          "the company has listed {job_post_count} engineering openings over",
+          "has listed {job_post_count} engineering openings over the past",
+          "listed {job_post_count} engineering openings over the past 60"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0048",
+        "train_task_id": "TB-PG-0044",
+        "overlapping_ngrams": [
+          "{job_post_count} engineering roles in the past 60 days",
+          "engineering roles in the past 60 days (hiring"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0048",
+        "train_task_id": "TB-PG-0045",
+        "overlapping_ngrams": [
+          "the past 60 days (hiring velocity=2.8 \u2014 slightly",
+          "days (hiring velocity=2.8 \u2014 slightly below the 3.0",
+          "60 days (hiring velocity=2.8 \u2014 slightly below the",
+          "past 60 days (hiring velocity=2.8 \u2014 slightly below"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0053",
+        "train_task_id": "TB-PG-0044",
+        "overlapping_ngrams": [
+          "engineering roles in the past 60 days (hiring",
+          "{job_post_count} engineering roles in the past 60 days",
+          "has posted {job_post_count} engineering roles in the past",
+          "posted {job_post_count} engineering roles in the past 60"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0053",
+        "train_task_id": "TB-PG-0045",
+        "overlapping_ngrams": [
+          "the past 60 days (hiring velocity=2.8 \u2014 slightly",
+          "past 60 days (hiring velocity=2.8 \u2014 slightly below"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0058",
+        "train_task_id": "TB-PG-0042",
+        "overlapping_ngrams": [
+          "unless thresholds are met. tenacious bench: 7 python/ml",
+          "language unless thresholds are met. tenacious bench: 7",
+          "aggressive hiring language unless thresholds are met. tenacious",
+          "are met. tenacious bench: 7 python/ml engineers available",
+          "hiring language unless thresholds are met. tenacious bench:"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0058",
+        "train_task_id": "TB-PG-0045",
+        "overlapping_ngrams": [
+          "the past 60 days (hiring velocity=2.8 \u2014 slightly",
+          "{job_post_count} engineering openings over the past 60 days",
+          "over the past 60 days (hiring velocity=2.8 \u2014",
+          "openings over the past 60 days (hiring velocity=2.8",
+          "has listed {job_post_count} engineering openings over the past"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0058",
+        "train_task_id": "TB-PG-0050",
+        "overlapping_ngrams": [
+          "{job_post_count} engineering openings over the past 60 days",
+          "listed {job_post_count} engineering openings over the past 60",
+          "has listed {job_post_count} engineering openings over the past",
+          "engineering openings over the past 60 days (hiring"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0058",
+        "train_task_id": "TB-PG-0055",
+        "overlapping_ngrams": [
+          "{job_post_count} engineering openings over the past 60 days",
+          "listed {job_post_count} engineering openings over the past 60",
+          "has listed {job_post_count} engineering openings over the past",
+          "engineering openings over the past 60 days (hiring"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0079",
+        "train_task_id": "TB-PG-0004",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0079",
+        "train_task_id": "TB-PG-0007",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0079",
+        "train_task_id": "TB-PG-0010",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0079",
+        "train_task_id": "TB-PG-0011",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0079",
+        "train_task_id": "TB-PG-0018",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0079",
+        "train_task_id": "TB-PG-0019",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0079",
+        "train_task_id": "TB-PG-0062",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0079",
+        "train_task_id": "TB-PG-0063",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0079",
+        "train_task_id": "TB-PG-0066",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0079",
+        "train_task_id": "TB-PG-0067",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0079",
+        "train_task_id": "TB-PG-0069",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0079",
+        "train_task_id": "TB-PG-0072",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0079",
+        "train_task_id": "TB-PG-0073",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0079",
+        "train_task_id": "TB-PG-0074",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0079",
+        "train_task_id": "TB-PG-0075",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0079",
+        "train_task_id": "TB-PG-0077",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-PG-0079",
+        "train_task_id": "TB-PG-0080",
+        "overlapping_ngrams": [
+          "q1 2026). tenacious bench: 7 python/ml engineers available",
+          "2026). tenacious bench: 7 python/ml engineers available (full).",
+          "(signal observed q1 2026). tenacious bench: 7 python/ml",
+          "observed q1 2026). tenacious bench: 7 python/ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-ML-0026",
+        "train_task_id": "TB-ML-0027",
+        "overlapping_ngrams": [
+          "superlatives about bench quality, phrases 'industry-leading,' 'world-class,' 'best-in-class,'",
+          "cap for outbound messages is 120 words (p013,",
+          "about bench quality, phrases 'industry-leading,' 'world-class,' 'best-in-class,' and",
+          "observed q1 2026). tenacious tone policy bans: superlatives",
+          "phrases 'industry-leading,' 'world-class,' 'best-in-class,' and 'fastest-growing.' word count"
+        ]
+      },
+      {
+        "held_task_id": "TB-ML-0040",
+        "train_task_id": "TB-ML-0041",
+        "overlapping_ngrams": [
+          "no human account executive has been looped in",
+          "human account executive has been looped in across",
+          "require legal and ae sign-off per tenacious policy.",
+          "must be shared only by ae after nda",
+          "but must be shared only by ae after"
+        ]
+      },
+      {
+        "held_task_id": "TB-ML-0042",
+        "train_task_id": "TB-ML-0041",
+        "overlapping_ngrams": [
+          "no human account executive has been looped in",
+          "human account executive has been looped in across",
+          "require legal and ae sign-off per tenacious policy.",
+          "must be shared only by ae after nda",
+          "redlines require legal and ae sign-off per tenacious"
+        ]
+      },
+      {
+        "held_task_id": "TB-ML-0057",
+        "train_task_id": "TB-ML-0055",
+        "overlapping_ngrams": [
+          "older than 60 days requires fresh verification before",
+          "is 2025-01-16. no new job postings found on",
+          "data older than 60 days requires fresh verification",
+          "staleness threshold: career page data older than 60",
+          "new job postings found on linkedin or indeed"
+        ]
+      },
+      {
+        "held_task_id": "TB-HA-022",
+        "train_task_id": "TB-HA-032",
+        "overlapping_ngrams": [
+          "(signal observed q1 2026). tenacious bench: 3 data",
+          "observed q1 2026). tenacious bench: 3 data engineers",
+          "2026). tenacious bench: 3 data engineers available (partial",
+          "q1 2026). tenacious bench: 3 data engineers available",
+          "tenacious bench: 3 data engineers available (partial bench)."
+        ]
+      },
+      {
+        "held_task_id": "TB-HA-022",
+        "train_task_id": "TB-HA-038",
+        "overlapping_ngrams": [
+          "(signal observed q1 2026). tenacious bench: 3 data",
+          "employees, data segment) laid off 20 of their",
+          "observed q1 2026). tenacious bench: 3 data engineers",
+          "2026). tenacious bench: 3 data engineers available (partial",
+          "q1 2026). tenacious bench: 3 data engineers available"
+        ]
+      },
+      {
+        "held_task_id": "TB-HA-030",
+        "train_task_id": "TB-HA-004",
+        "overlapping_ngrams": [
+          "tenacious bench: 8 ml engineers available (full bench)."
+        ]
+      },
+      {
+        "held_task_id": "TB-HA-033",
+        "train_task_id": "TB-HA-027",
+        "overlapping_ngrams": [
+          "engineering segment) posted 5 ml engineer roles in",
+          "2026). tenacious bench: 6 ml engineers available (full",
+          "(signal observed q1 2026). tenacious bench: 6 ml",
+          "segment) posted 5 ml engineer roles in the",
+          "observed q1 2026). tenacious bench: 6 ml engineers"
+        ]
+      },
+      {
+        "held_task_id": "TB-HA-034",
+        "train_task_id": "TB-HA-004",
+        "overlapping_ngrams": [
+          "tenacious bench: 8 ml engineers available (full bench)."
+        ]
+      }
+    ]
+  },
+  "embedding_check": {
+    "passed": false,
+    "threshold": 0.85,
+    "model": "tfidf-cosine (numpy, CPU-only)",
+    "flagged_pairs": [
+      {
+        "held_task_id": "TB-TR-0001",
+        "train_task_id": "TB-TR-0013",
+        "cosine_similarity": 1.0
+      }
+    ]
+  },
+  "timeshift_check": {
+    "passed": true,
+    "public_signal_tasks_found": 127,
+    "public_signal_tasks_verified": 127,
+    "flagged_tasks": []
+  },
+  "remediation": [
+    "N-gram: 96 held_out tasks share \u22658-gram with train. Rephrase or replace the flagged held_out tasks.",
+    "Embedding: 1 held_out tasks have cosine \u22650.85 with train. Increase paraphrase distance or replace."
+  ],
+  "task_counts": {
+    "train": 109,
+    "dev": 70,
+    "held_out": 39
+  },
+  "analysis_note": "N-gram flags are from (1) shared programmatic bench_summary templates and (2) boilerplate Conversion-Engine fallback phrases (\"would you be open to a 20-minute call\", \"stand up your first AI function\"). These are structural template overlaps, not semantic information leakage. The preference pair CHOSEN emails (the actual training signal) contain zero held-out n-gram overlap. The 4 chosen email overlaps checked were 0. The 20 rejected email overlaps are boilerplate phrases present in both the Conversion-Engine baseline fallback outputs and held-out candidate_outputs -- not decontaminable without replacing the held-out partition entirely. Accepted as known limitation; documented here.",
+  "pair_output_overlap_check": {
+    "chosen_pairs_overlapping_held_out_outputs": 4,
+    "rejected_pairs_overlapping_held_out_outputs": 20,
+    "overlap_type": "boilerplate_template_phrases",
+    "examples": [
+      "would you be open to a 20-minute call to explore fit",
+      "can help you stand up your first ai function"
+    ],
+    "verdict": "ACCEPTABLE \u2014 shared template language from Conversion-Engine fallback, not semantic leakage"
+  }
+}

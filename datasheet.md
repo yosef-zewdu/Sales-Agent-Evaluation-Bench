@@ -24,9 +24,9 @@ Tenacious-Bench v0.1 is a 200–300 task evaluation benchmark for Tenacious Cons
 
 | Attribute | Value |
 |---|---|
-| Total tasks (v0.1) | 200–300 (varies by judge filter pass rate) |
+| Total tasks (v0.1) | 218 (250 generated → 32 deduped out → 218 final) |
 | Dimensions | 7 |
-| Partitions | train 50% / dev 30% / held_out 20% |
+| Partitions | train 109 (50%) / dev 70 (32%) / held_out 39 (18%) |
 | Source modes | trace_derived ~30%, programmatic ~30%, multi_llm ~25%, hand_authored ~15% |
 | Language | English only |
 | Sensitive data | None — all prospect data synthetic or redacted |
@@ -81,12 +81,13 @@ All per-task assignments logged in `generation_scripts/model_rotation_log.csv`.
 - Calibration: eval-tier (Claude Sonnet 4.6) spot-checks 50 tasks; Pearson r ≥ 0.80 required
 
 **Deduplication** (`generation_scripts/dedup.py`):
-- Cosine similarity < 0.85 on `hiring_signal_brief + candidate_output` embeddings
-- Model: `sentence-transformers/all-MiniLM-L6-v2`
+- Cosine similarity < 0.85 on `hiring_signal_brief + candidate_output` TF-IDF vectors
+- Method: numpy TF-IDF cosine (CPU-only; no PyTorch dependency)
+- Result: 250 → 218 tasks (32 removed)
 
 **Contamination checks** (before sealing held_out):
 1. N-gram overlap: < 8-gram on input fields between held_out and train
-2. Embedding similarity: cosine < 0.85 (same model as dedup)
+2. Embedding similarity: cosine < 0.85 (TF-IDF cosine, numpy, CPU-only)
 3. Time-shift: public signals (Crunchbase, layoffs.fyi) must cite documentable time windows
 
 **Domain invariants enforced:**
