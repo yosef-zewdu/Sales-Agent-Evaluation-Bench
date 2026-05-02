@@ -1,0 +1,28 @@
+backbone: "Qwen/Qwen2.5-0.5B-Instruct"  # start with 0.5B for speed; upgrade to 1.5B if loss doesn't decrease
+algorithm: "simpo"
+lora_r: 16
+lora_alpha: 32
+lora_dropout: 0.05
+target_modules: ["q_proj", "v_proj", "k_proj"]
+learning_rate: 5.0e-5
+batch_size: 2
+gradient_accumulation_steps: 8
+num_epochs: 3
+max_seq_length: 1024
+warmup_ratio: 0.1
+precision: "fp16"
+seed: 42
+output_dir: "checkpoints/tenacious-judge"
+push_to_hub: true
+hub_model_id: "yosefz/tenacious-judge-lora"
+log_steps: 10
+save_strategy: "epoch"
+
+# Kill condition (from SimPO §2.3):
+#   If loss has not dropped 10% by end of epoch 1, stop.
+#   Check mean score_gap — must be > 2.0 for stable training.
+#   If mean gap < 2.0, data is too noisy; adding compute won't fix it.
+#
+# Prometheus 2 Appendix B validated settings (scaled to 0.5B):
+#   lr=1e-5 for 7B → 5e-7 for 0.5B (we use 5e-5 with warmup as compromise for LoRA)
+#   batch_size=4 for 7B → batch_size=2 for 0.5B on T4
