@@ -1,0 +1,16 @@
+{
+  "condition": "baseline",
+  "pass_at_1": 0.0256,
+  "avg_score": 0.2714,
+  "hard_fail_rate": 0.9231,
+  "n_tasks": 39,
+  "per_dimension": {
+    "signal_grounding": 0.0,
+    "qualification_accuracy": 0.0,
+    "constraint_judgment": 0.0,
+    "bench_calibration": 0.0,
+    "tone_adherence": 0.0,
+    "escalation_decision": 0.0,
+    "scheduling_hygiene": 0.5
+  }
+}
